@@ -3,7 +3,7 @@ import { Autoplay, Pagination, Navigation } from "swiper";
 export default function Banner(props) {  
     return (
         <>
-        <div className="container mt-5" id="banner">
+        <div className="" id="banner">
             <Swiper
         spaceBetween={30}
         centeredSlides={true}
@@ -16,12 +16,12 @@ export default function Banner(props) {
         }}
         navigation={true}
         modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
+        className="mySwiper container mt-5"
       >
-        <SwiperSlide></SwiperSlide>
-        <SwiperSlide>Slide 2</SwiperSlide>
-        <SwiperSlide>Slide 3</SwiperSlide>
-        <SwiperSlide>Slide 4</SwiperSlide>
+        <SwiperSlide><div className="bg1"></div></SwiperSlide>
+        <SwiperSlide><div className="bg2"></div></SwiperSlide>
+        <SwiperSlide><div className="bg3"></div></SwiperSlide>
+        <SwiperSlide><div className="bg4"></div></SwiperSlide>
       </Swiper>
             
          </div>
