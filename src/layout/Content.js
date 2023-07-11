@@ -6,13 +6,13 @@ import Setup from '../constituent/Setup'
 
 export default function Content(props) {  
     return (
-        <>
-            <Banner></Banner>
-            <Menu></Menu>
+        <section  id={props.cid}>
+            <Banner ></Banner>
+            <Menu useid={props.usedb.navi[0].href}></Menu>
             <Use></Use>
             <Form></Form>
             <Setup></Setup>
 
-        </>
+        </section>
     )
 }
