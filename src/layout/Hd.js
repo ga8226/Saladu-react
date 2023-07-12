@@ -10,11 +10,11 @@ export default function Hd(props) {
         <>
 
 <header className="fixed-top border-bottom bg-white">
-{ topAD &&  <div className="ad text-center py-2" id="event">
-                    <a href={props.usedb.topad.adlink} className="text-white">{props.usedb.topad.adtitle}</a>
-                    <button onClick={ () =>{ 
+{ topAD &&  <div className="ad text-center py-2 px-lg-5 px-3 d-flex jusitfy-content-between" id="event">
+                    <a href={props.usedb.topad.adlink} className="text-white flex-grow-1">{props.usedb.topad.adtitle}</a>
+                    <button className="justify-content-end" onClick={ () =>{ 
                         settopAD(false)
-                    }}><i class="bi bi-x-lg"></i></button>
+                    }}><i class="bi bi-x-lg" ></i></button>
                   
                 </div>
              }

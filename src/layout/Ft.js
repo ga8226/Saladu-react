@@ -1,7 +1,7 @@
 export default function Ft(props) {  
     return (
         <>
-            <div id="ft" className="pt-">
+            <div id="ft" style={{height : "100vh"}}>
             <img src="../img/logo.svg" alt=""  className=""/>
             <ul className="row">
                     대전광역시 유성구 문지로 291,206호
