@@ -29,7 +29,7 @@ export default function Hd(props) {
           {
                         props.usedb.navi.map(( val, idx) => {
                                 return(
-                                    <li className={val.cls} id={'navilist'+idx}>
+                                    <li className={val.cls}>
                                         <Nav.Link href={"#"+val.href}>{val.nm}</Nav.Link>          
                                     </li>
                                 )
