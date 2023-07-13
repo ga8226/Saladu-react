@@ -11,7 +11,7 @@ export default function Hd(props) {
         <>
 
 <header className="fixed-top border-bottom">
-{ topAD &&  <div className="text-center py-2 px-lg-5  d-flex jusitfy-content-between" id="event">
+{ topAD &&  <div className="text-center py-2 px-lg-5 px-3 d-flex jusitfy-content-between" id="event">
                     <a href={props.usedb.topad.adlink} className="text-white flex-grow-1">{
 
                     props.usedb.topad.adtitle.map((v, x)=>{ 
@@ -29,9 +29,9 @@ export default function Hd(props) {
                   
                 </div>
              }
-      <Navbar className="d-flex justify-content-between align-items-center mx-lg-5 ">
-       <Navbar.Brand as="h1" className="mb-0 me-0  me-md-4 ">
-                        <a href="#top" className="d-block"><img src="./img/logo.svg" alt="" /></a>
+      <Navbar className="d-flex justify-content-between align-items-center mx-lg-5 px-3">
+       <Navbar.Brand as="h1">
+                        <a href="#top"><img src="./img/logo.svg" alt="" /></a>
        </Navbar.Brand>
                
         <Navbar.Toggle aria-controls="navbar-nav" />
@@ -44,20 +44,20 @@ export default function Hd(props) {
                                         <Nav.Link href={"#"+val.href}>{val.nm}</Nav.Link>          
                                     </li>
                                     
-                                );
-                        })}
-                         <li className="ms-md-auto">
-                                <a href="https://saladu.co.kr/">
-                                    <i className="bi bi-rocket-takeoff ms-auto p-2 d-block"></i>
-                                </a>
-                        </li>
-                         
-                       
+                                )
+                        })
+                        } 
+            
           </Scrollspy>
         </Navbar.Collapse>
       </Navbar>
       
-    </header>      
+
+    </header>
+      
+          
+                
+            
         </>
     )
 }
