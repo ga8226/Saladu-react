@@ -20,6 +20,9 @@ li {
 header img {
   height: 30px;
 }
+header li {
+  padding: 10px 10px;
+}
 header li a {
   color: black;
   font-size: 15px;

@@ -1,6 +1,6 @@
 const dbnavi = {     
     topad : {
-        adtitle : "지금 가입하면 주스 0원 & 정기배송 15%할인",
+        adtitle : ["지금 가입하면 ", "주스 0원 & 정기배송 15%", " 할인"],
         adlink : ""
     },
     navi : [
@@ -24,7 +24,8 @@ const dbnavi = {
             nm : '창업안내',
             cls : 'navi setup',
             href : 'setup'
-        }
+        },
+       
     ],
     
 }
