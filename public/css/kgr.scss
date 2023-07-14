@@ -20,6 +20,12 @@ header{
     height: 30px;
    }
    li{
+
+    &.active{
+        a{
+            color: #7FAC34 !important; 
+        }
+    }
     
     i{
         color: #7FAC34;

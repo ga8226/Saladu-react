@@ -23,7 +23,7 @@ export default function Banner(props) {
         {
         [1, 2, 3, 4].map(function(v, i){
      return(
-        <SwiperSlide className={`bg${v}`}></SwiperSlide>
+        <SwiperSlide className={`bg${v}`} key={i}></SwiperSlide>
      )
   })
 

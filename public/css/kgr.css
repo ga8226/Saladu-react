@@ -25,6 +25,9 @@ header {
 header img {
   height: 30px;
 }
+header li.active a {
+  color: #7FAC34 !important;
+}
 header li i {
   color: #7FAC34;
   font-size: 40px;
