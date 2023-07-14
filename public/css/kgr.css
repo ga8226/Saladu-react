@@ -57,9 +57,14 @@ header i {
 }
 
 #content {
-  padding-top: 120px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 130px;
 }
-#content .swiper-slide {
+#content .swiper {
+  border-radius: 15px;
+}
+#content .swiper .swiper-slide {
   min-height: 370px;
   background-position: center;
   background-repeat: no-repeat;
