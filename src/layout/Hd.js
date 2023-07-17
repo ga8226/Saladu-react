@@ -24,17 +24,17 @@ export default function Hd(props) {
                     })
                     }</a>
                     <button onClick={ () =>{ 
-                        settopAD(false)
+                        settopAD (false)
                     }}><i className="bi bi-x-lg d-block" ></i></button>
                   
                 </div>
              }
-        <Navbar className="d-flex justify-content-between align-items-center mx-lg-5 ">
+        <Navbar className="d-flex justify-content-between align-items-center mx-lg-5">
        <Navbar.Brand as="h1" className="mb-0 me-0  me-md-4 ">
                         <a href="#top" className="d-block"><img src="./img/logo.svg" alt="" /></a>
        </Navbar.Brand>
                
-        <Navbar.Toggle aria-controls="navbar-nav" />
+        <Navbar.Toggle aria-controls="navbar-nav"/>
         <Navbar.Collapse id="navbar-nav">
        
           <Scrollspy id="navbar-nav" className="navbar-nav" items={[ props.usedb.navi[0].href, props.usedb.navi[1].href, props.usedb.navi[2].href,props.usedb.navi[3].href]} currentClassName="active">

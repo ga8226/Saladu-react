@@ -83,6 +83,17 @@ header i {
   background-image: url(../img/slide4.jpg);
 }
 
+section button {
+  border: solid 2px #7FAC34;
+  background-color: white;
+  border-radius: 80px;
+  width: 300px !important;
+}
+section button a {
+  color: #7FAC34;
+  text-decoration: none;
+}
+
 #ft {
   background-color: #F9FCF3;
 }

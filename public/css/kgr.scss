@@ -35,7 +35,6 @@ header{
     a{
         color: black;
         font-size: 15px;
-        // padding: 30px 30px !important;
         font-weight: 500;
         
 
@@ -69,7 +68,6 @@ header{
         
         border-radius: 15px;
     .swiper-slide{
-       
         min-height:370px;
         background-position: center;
         background-repeat: no-repeat;
@@ -101,7 +99,18 @@ header{
 }
 }
 
-
+section{
+    button{
+        border: solid 2px #7FAC34;
+        background-color: white;
+        border-radius: 80px;
+        width: 300px !important;
+        a{
+            color: #7FAC34;
+            text-decoration: none;
+        }
+    }
+}
 
 
 #ft{
