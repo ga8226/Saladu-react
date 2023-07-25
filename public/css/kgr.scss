@@ -100,18 +100,23 @@ header{
 }
 
 section{
+    padding-bottom: 3px;
     button{
+        padding: 6px;
         border: solid 2px #7FAC34;
         background-color: white;
-        border-radius: 80px;
-        width: 300px !important;
+        border-radius: 10px;
+        width:500px !important;
         a{
             color: #7FAC34;
             text-decoration: none;
+           
         }
     }
+    #menulist>li{
+        font-size: 22px;
+    }
 }
-
 
 #ft{
     background-color: #F9FCF3;
@@ -137,7 +142,9 @@ section{
     }
 
 }
-
+#menu{
+    text-align: center;
+}
 .youtubebox{
     > div{
     height: 0;
@@ -149,4 +156,7 @@ section{
             top:0;
         }
    }
+}
+.ift{
+    font-size: 30px;
 }

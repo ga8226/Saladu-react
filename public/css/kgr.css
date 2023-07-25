@@ -83,15 +83,22 @@ header i {
   background-image: url(../img/slide4.jpg);
 }
 
+section {
+  padding-bottom: 3px;
+}
 section button {
+  padding: 6px;
   border: solid 2px #7FAC34;
   background-color: white;
-  border-radius: 80px;
-  width: 300px !important;
+  border-radius: 10px;
+  width: 500px !important;
 }
 section button a {
   color: #7FAC34;
   text-decoration: none;
+}
+section #menulist > li {
+  font-size: 22px;
 }
 
 #ft {
@@ -114,6 +121,10 @@ section button a {
   background-color: #7FAC34;
 }
 
+#menu {
+  text-align: center;
+}
+
 .youtubebox > div {
   height: 0;
   padding-top: 54%;
@@ -123,4 +134,8 @@ section button a {
   height: 100%;
   left: 0;
   top: 0;
+}
+
+.ift {
+  font-size: 30px;
 }/*# sourceMappingURL=kgr.css.map */
