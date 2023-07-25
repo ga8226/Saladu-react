@@ -5,6 +5,7 @@ export default function Banner(props) {
         <>
    
             <Swiper
+            id={props.id}
              spaceBetween={0}
              slidesPerView={1}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
              autoplay={{

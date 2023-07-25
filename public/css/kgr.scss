@@ -125,3 +125,28 @@ section{
         align-items: center;
     } 
 }
+
+#mainBanner{
+    .swiper-pagination-bullet{
+        width:13px;
+        height:13px;
+        &.swiper-pagination-bullet-active{
+           background-color:#7FAC34
+
+        }
+    }
+
+}
+
+.youtubebox{
+    > div{
+    height: 0;
+    padding-top: 54%;
+    border-radius: 22px;
+        iframe{
+            height: 100%; 
+            left:0; 
+            top:0;
+        }
+   }
+}
