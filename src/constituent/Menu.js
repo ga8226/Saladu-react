@@ -22,9 +22,22 @@ export default function  Menu(props) {
           </div>
          </div>
          <div>
-
+          <div className="container-md">
+            <div>
+              <span><a href="#">올 여름 다이어트 격파 식단</a></span>
+            </div>     
+            <div className="row">
+              <div className="col-md-4"><a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/71/71_detail_019.jpg" className="img-fluid" alt="" /></a></div>
+              <div className="col-md-4"><a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/20/10/43/1000000060/1000000060_detail_012.jpg" className="img-fluid"  alt="" /></a></div>
+              <div className="col-md-4"><a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/70/01/01/117/117_detail_063.jpg" className="img-fluid"  alt="" /></a></div>
+              <div className="col-md-4"><a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/74/74_detail_091.jpg" className="img-fluid"  alt="" /></a></div>
+              <div className="col-md-4"><a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/73/73_detail_015.jpg" className="img-fluid"  alt="" /></a></div>
+              <div className="col-md-4"><a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/22/05/19/1000000404/1000000404_detail_02.jpg" className="img-fluid"  alt="" /></a></div>  
+            </div>                
+                    
+          </div>
          </div>
-
+        
           </div>
          
         </section>
