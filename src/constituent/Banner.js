@@ -1,5 +1,6 @@
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Autoplay, Pagination } from "swiper";
+import db from '../data/db.json'
 export default function Banner(props) {  
     return (
         <>
@@ -22,9 +23,9 @@ export default function Banner(props) {
            
           >
         {
-        [1, 2, 3, 4].map(function(v, i){
+        db.swiperbanner.map(function(v, i){
      return(
-        <SwiperSlide className={`bg${v}`} key={i}></SwiperSlide>
+        <SwiperSlide className={`bg${v.bcls}`} key={i}></SwiperSlide>
      )
   })
 

@@ -1,13 +1,13 @@
 import Hd from './layout/Hd'
 import Content from './layout/Content'
 import Ft from './layout/Ft';
-import dbnavi from './db/db'
+import db from './data/db.json'
 
 export default function Saladu(props) {  
     return (
         <>
-          <Hd usedb={dbnavi}></Hd>  
-          <Content cid="content" usedb={dbnavi}></Content>
+          <Hd usedb={db}></Hd>  
+          <Content cid="content" usedb={db}></Content>
           <Ft></Ft>
         </>
     )
