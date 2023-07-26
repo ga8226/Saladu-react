@@ -1,7 +1,7 @@
  {     
     "topad" : {
         "adtitle" : ["지금 가입하면 ", "주스 0원 & 정기배송 15%", " 할인"],
-        "adlink" : ""
+        "adlink" : "https://saladu.co.kr"
     },
     "navi" : [
         {
@@ -30,27 +30,35 @@
     ,
     "swiperbanner" : [
         {
-            "bnm" : "",
             "bcls" : "1"
-
         },
         {
-            "bnm" : "",
             "bcls" : "2"
-
         },
         {
-            "bnm" : "",
             "bcls" : "3"
-
         },
         {
-            "bnm" : "",
             "bcls" : "4"
-
         }
     ]
-    
-    
+    ,
+    "youtube" :{ 
+            "Ytitle" : "/img/youtubetitle.gif", 
+            "Yalt" : "타이틀" ,
+            "vlink" : "eMkIoyUk3Lk?start=299",
+            "maintitle":"요즘 누가 안 먹고 관리하나요?",
+            "subtitle" : "쉽게 질리는 식단은 bye 🔥" ,
+            "adlist": [
+                { "adspan" : "💪",
+                 "listext" : "건강과 맛을 동시에!"
+                },
+                { "adspan" : "💪",
+                 "listext" : "짜여진맛? no! 내가 만드는 나만의 주스"
+                },
+                { "adspan" : "💪",
+                 "listext" : "오직 샐러드유에서만!"
+                }
+            ]}
 }
 
