@@ -36,15 +36,15 @@ export default function  Menu(props) {
             <ul className="row">
               {
 
-                [1,2,3,4,5,6].map(()=>{
+                db.Menu.map((v,i)=>{
                   return(
-                    <li className="col-md-4 position-relative">
+                    <li className="col-md-4">
                 <div>
-                <a href="" className='d-block position-relative'>
-                  <img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/71/71_detail_019.jpg" className="img-fluid" alt="" />
-                  <span className="view"><storng className="px-2">1050명</storng><em>주문폭주중</em></span>
+                <a href={v.Mhref} className='d-block position-relative'>
+                  <img src={v.Mpic} className="img-fluid" alt={v.Malt} />
+                  <span className="view"><storng className="px-2">{v.Mstorng}</storng><em>{v.Mem}</em></span>
                 </a>
-                <div><p>치즈샐러드</p><strong>6500원</strong><span>8100원</span></div>
+                <div><p>{v.Mnm}</p><strong>{v.Msale}</strong><span>{v.Mnone}</span></div>
                 </div> 
                 </li>
 
@@ -52,42 +52,6 @@ export default function  Menu(props) {
                   )
                 })
               }
-              
-              {/* <li className="col-md-4">
-                <div>
-                <a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/20/10/43/1000000060/1000000060_detail_012.jpg" className="img-fluid"  alt="" /></a>
-                <div><p><storng className="px-2">234명</storng>주문중</p></div>
-                <div><p>닭가슴살 비엔나 소시지</p><strong>7100원</strong><span>9000원</span></div>
-                </div>
-                  </li>
-              <li className="col-md-4">
-                <div>
-                <a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/70/01/01/117/117_detail_063.jpg" className="img-fluid"  alt="" /></a>
-                <div><p><storng className="px-2">105명</storng>주문중</p></div>
-                <div><p>파스타샐러드</p><strong>7100원</strong><span>9300원</span></div>
-                </div>
-                </li>
-              <li className="col-md-4">
-                <div>
-                <a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/74/74_detail_091.jpg" className="img-fluid"  alt="" /></a>
-                <div><p><storng className="px-2">58명</storng>보는중</p></div>
-                <div><p>닭가슴살볼 옥수수톡 샐러드</p><strong>6900원</strong><span>9000원</span></div>
-                </div>
-                </li>
-              <li className="col-md-4">
-                <div>
-                <a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/73/73_detail_015.jpg" className="img-fluid"  alt="" /></a>
-                <div><p><storng className="px-2">589명</storng>주문폭주중</p></div>
-                <div><p>닭가슴살볼 깻잎가득 샐러드</p><strong>6900원</strong><span>9000원</span></div>
-                </div>
-             </li>
-              <li className="col-md-4">
-                <div>
-                <a href=""><img src="https://atowertr6856.cdn-nhncommerce.com/data/goods/22/05/19/1000000404/1000000404_detail_02.jpg" className="img-fluid"  alt="" /></a>
-                <div><p><storng className="px-2">44명</storng>보는중</p></div>
-                <div><p>갈릭페퍼 로스트 닭다리살 샐러드</p><strong>8900원</strong><span>11000원</span></div>
-                </div>
-               </li>   */}
             </ul >                                    
           </div>
          </div>

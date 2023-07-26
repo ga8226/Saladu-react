@@ -59,6 +59,70 @@
                 { "adspan" : "💪",
                  "listext" : "오직 샐러드유에서만!"
                 }
-            ]}
+            ]} 
+            ,
+            "Menu" : [
+                {
+                    "Mhref" : "#" ,
+                    "Mpic" : "https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/71/71_detail_019.jpg",
+                    "Malt" : "치즈가득,치즈샐러드"  ,
+                    "Mstorng" : "1050명" ,
+                    "Mem" : "주문폭주중" ,
+                    "Mnm" : "치즈샐러드" ,
+                    "Msale" : "6500원" ,
+                    "Mnone" : "8100원"
+                }
+                ,
+                {
+                    "Mhref" : "#" ,
+                    "Mpic" : "https://atowertr6856.cdn-nhncommerce.com/data/goods/20/10/43/1000000060/1000000060_detail_012.jpg",
+                    "Malt" : "영양가득,닭가슴살,영양만점"  ,
+                    "Mstorng" : "234명" ,
+                    "Mem" : "주문중" ,
+                    "Mnm" : "닭가슴살 비엔나 소시지" ,
+                    "Msale" : "7100원" ,
+                    "Mnone" : "9000원"
+                } ,
+                {
+                    "Mhref" : "#" ,
+                    "Mpic" : "https://atowertr6856.cdn-nhncommerce.com/data/goods/70/01/01/117/117_detail_063.jpg",
+                    "Malt" : "파스타,샐러드,같이먹는샐러드"  ,
+                    "Mstorng" : "105명" ,
+                    "Mem" : "주문중" ,
+                    "Mnm" : "파스타샐러드" ,
+                    "Msale" : "7100원" ,
+                    "Mnone" : "9300원"
+                } ,
+                {
+                    "Mhref" : "#" ,
+                    "Mpic" : "https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/74/74_detail_091.jpg",
+                    "Malt" : "옥수수,닭가슴살,퍽퍽하지않은"  ,
+                    "Mstorng" : "58명" ,
+                    "Mem" : "현재보는중" ,
+                    "Mnm" : "닭가슴살볼 옥수수톡 샐러드" ,
+                    "Msale" : "6900원" ,
+                    "Mnone" : "9000원"
+                } ,
+                {
+                    "Mhref" : "#" ,
+                    "Mpic" : "https://atowertr6856.cdn-nhncommerce.com/data/goods/16/07/14/73/73_detail_015.jpg",
+                    "Malt" : "깻잎,향"  ,
+                    "Mstorng" : "589명" ,
+                    "Mem" : "주문폭주중" ,
+                    "Mnm" : "닭가슴살볼 깻잎가득 샐러드" ,
+                    "Msale" : "6900원" ,
+                    "Mnone" : "9000원"
+                } ,
+                {
+                    "Mhref" : "#" ,
+                    "Mpic" : "https://atowertr6856.cdn-nhncommerce.com/data/goods/22/05/19/1000000404/1000000404_detail_02.jpg",
+                    "Malt" : "갈릭소스,닭가슴살,약간매콤한"  ,
+                    "Mstorng" : "44명" ,
+                    "Mem" : "담는중" ,
+                    "Mnm" : "갈릭페퍼 로스트 닭다리살 샐러드" ,
+                    "Msale" : "8900원" ,
+                    "Mnone" : "11000원"
+                }
+            ]
 }
 

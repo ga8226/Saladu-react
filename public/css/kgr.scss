@@ -162,7 +162,6 @@ section{
 }
 
 .view{
-    z-index: 11;
     position: absolute;
     bottom: 0;
     left: 0;
@@ -171,5 +170,9 @@ section{
     line-height: 34px;
     padding: 0 10px;
     text-align: left;
-    background: rgba(0,0,0,.5);  
+    background: rgba(0,0,0,.5);
+    color: white 
+}
+.view:hover{
+    color: #7FAC34;
 }
