@@ -17,6 +17,10 @@ li {
   list-style: none;
 }
 
+ul {
+  padding: 0;
+}
+
 header {
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
@@ -83,15 +87,12 @@ header i {
   background-image: url(../img/slide4.jpg);
 }
 
-section {
-  padding-bottom: 3px;
-}
 section button {
-  padding: 6px;
+  padding: 12px 0;
   border: solid 2px #7FAC34;
   background-color: white;
-  border-radius: 10px;
-  width: 500px !important;
+  border-radius: 6px;
+  width: 90%;
 }
 section button a {
   color: #7FAC34;
@@ -136,8 +137,20 @@ section #menulist > li {
   top: 0;
 }
 
-.ift {
-  font-size: 30px;
+#deco a {
+  font-size: 20px;
+  color: #212529;
+}
+
+section #menulist > li {
+  font-size: 18px;
+  font-weight: 300;
+}
+
+section h3 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #212529;
 }
 
 .view {
@@ -155,4 +168,21 @@ section #menulist > li {
 
 .view:hover {
   color: #7FAC34;
+}
+
+.line {
+  margin: 12px 0 0 0;
+  padding: 12px 0 0 0;
+  border-top: 1px solid #ddd;
+}
+
+.ift {
+  font-size: 30px;
+}
+
+#explain > p {
+  font-weight: 200;
+}
+#explain > p > span {
+  font-weight: 600;
 }/*# sourceMappingURL=kgr.css.map */
