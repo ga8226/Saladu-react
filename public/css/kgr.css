@@ -170,16 +170,6 @@ section h3 {
   color: #7FAC34;
 }
 
-.line {
-  margin: 12px 0 0 0;
-  padding: 12px 0 0 0;
-  border-top: 1px solid #ddd;
-}
-
-.ift {
-  font-size: 30px;
-}
-
 #explain > p {
   font-weight: 200;
 }
@@ -195,4 +185,12 @@ section h3 {
   color: #888;
   font-size: 16px;
   font-weight: 200;
+}
+
+.center {
+  text-align: center;
+}
+
+.ift {
+  font-size: 30px;
 }/*# sourceMappingURL=kgr.css.map */

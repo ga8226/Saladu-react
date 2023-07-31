@@ -191,12 +191,7 @@ section h3{
 .view:hover{
     color: #7FAC34;
 }
-.line{margin: 12px 0 0 0;
-    padding: 12px 0 0 0;
-    border-top: 1px solid #ddd;}
-.ift{
-    font-size: 30px;
-}
+
 #explain>p{
     font-weight: 200;
  >span{
@@ -212,3 +207,9 @@ section h3{
     font-size: 16px;
     font-weight: 200;
  }
+ .center{
+    text-align: center;
+ }
+ .ift{
+    font-size: 30px;
+}
