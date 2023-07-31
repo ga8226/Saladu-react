@@ -4,9 +4,9 @@ export default function  Menu(props) {
         <>
         <section id={props.useid} className="container pt-3 pt-lg-5 px-0 px-lg-3 mx-0 mx-lg-auto">
           <div className="pt-3">
-          <h2 id="menu" className='mb-5'><img src={db.youtube.Ytitle} alt={db.youtube.Yalt} className="mb-4" /></h2>
+          <h2 id="menu" className='mb-5'><img src={db.youtube.Ytitle} alt={db.youtube.Yalt} className="mb-4 img-fluid" /></h2>
           <div className="d-lg-flex jusitfy-content-between align-items-center mb-5">
-            <div className="col-lg-7  youtubebox">
+            <div className="col-lg-7  youtubebox ms-md-5">
               <div className="position-relative overflow-hidden">
               <iframe width="100%" className="position-absolute" src={`https://www.youtube.com/embed/${db.youtube.vlink}`} ></iframe>
               </div>
@@ -38,12 +38,11 @@ export default function  Menu(props) {
                   return(
                     <li className="col-md-4">
                 <div>
-                <a href={v.Mhref} className='d-block position-relative'>
-                  <img src={v.Mpic} className="img-fluid pt-2" alt={v.Malt} />
-                  <span className="view"><storng className="px-2">{v.Mstorng}</storng><em>{v.Mem}</em></span>
-                </a>
-                <div id="explain"><p className='pt-2'>{v.Mdeco}<span className='px-2'>{v.Mnm}</span></p><strong>{v.Msale}</strong><span className='ps-3'>{v.Mnone}</span></div>
-                <div className='line'><span></span></div>
+                  <a href={v.Mhref} className='d-block position-relative'>
+                    <img src={v.Mpic} className="img-fluid pt-2" alt={v.Malt} />
+                    <span className="view"><storng className="px-2">{v.Mstorng}</storng><em>{v.Mem}</em></span>
+                  </a>
+                  <div id="explain"><p className='pt-2'>{v.Mdeco}<span className='px-2'>{v.Mnm}</span></p><strong>{v.Msale}</strong><span className='ps-3 nonsale'>{v.Mnone}</span></div> 
                 </div> 
                 </li>
                   )
@@ -51,8 +50,7 @@ export default function  Menu(props) {
               }
             </ul >                                    
           </div>
-         </div>
-        
+         </div>        
           </div>
          
         </section>

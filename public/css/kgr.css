@@ -185,4 +185,14 @@ section h3 {
 }
 #explain > p > span {
   font-weight: 600;
+}
+
+#explain strong {
+  font-size: 18px;
+}
+
+.nonsale {
+  color: #888;
+  font-size: 16px;
+  font-weight: 200;
 }/*# sourceMappingURL=kgr.css.map */
