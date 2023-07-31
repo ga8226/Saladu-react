@@ -16,6 +16,9 @@ li{
 ul{
     padding: 0;
 }
+.center{
+    text-align: center;
+ }
 header{
     backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.6);
@@ -207,8 +210,25 @@ section h3{
     font-size: 16px;
     font-weight: 200;
  }
- .center{
-    text-align: center;
+
+ #useimg{
+    height: 70px;
+    background-color: #E7FFB7;
+    border-radius: 10px 10px;    
+ }
+ .review{
+ width: 81px;
+ display: block;
+ margin: 0 auto;
+ height: 70px;
+ }
+#reimg{
+    height: 70px;
+ }
+ #reslide{
+    width: 200px;
+    height: 70px;
+    display: block;
  }
  .ift{
     font-size: 30px;

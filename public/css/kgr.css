@@ -21,6 +21,10 @@ ul {
   padding: 0;
 }
 
+.center {
+  text-align: center;
+}
+
 header {
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
@@ -187,8 +191,27 @@ section h3 {
   font-weight: 200;
 }
 
-.center {
-  text-align: center;
+#useimg {
+  height: 70px;
+  background-color: #E7FFB7;
+  border-radius: 10px 10px;
+}
+
+.review {
+  width: 81px;
+  display: block;
+  margin: 0 auto;
+  height: 70px;
+}
+
+#reimg {
+  height: 70px;
+}
+
+#reslide {
+  width: 200px;
+  height: 70px;
+  display: block;
 }
 
 .ift {
