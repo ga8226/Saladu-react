@@ -54,8 +54,8 @@ export default function Use(props) {
                     </Swiper>
                 </div>
                 <div className='d-flex justify-content-center pt-3'>
-                    <button className='lebu'><a href="#none"><img src="https://cdn-icons-png.flaticon.com/128/215/215642.png" alt="" /></a></button>
-                    <button className='ribu'><a href="#none"><img src="https://cdn-icons-png.flaticon.com/128/157/157103.png" alt="" /></a></button>
+                    <button className='lebu px-4'><a href="#none"><img src="https://cdn-icons-png.flaticon.com/128/215/215642.png" alt="" /></a></button>
+                    <button className='ribu px-4'><a href="#none"><img src="https://cdn-icons-png.flaticon.com/128/157/157103.png" alt="" /></a></button>
                 </div>
                 
             </div>
