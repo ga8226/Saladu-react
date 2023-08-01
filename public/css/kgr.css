@@ -102,15 +102,11 @@ section button a {
   color: #7FAC34;
   text-decoration: none;
 }
+section a:hover {
+  color: #7FAC34;
+}
 section #menulist > li {
   font-size: 22px;
-}
-
-#ft {
-  background-color: #F9FCF3;
-}
-#ft img {
-  height: 30px;
 }
 
 .navbar-expand .navbar-nav {
@@ -238,6 +234,28 @@ section h3 {
   border-radius: 50%;
 }
 
-.ift {
-  font-size: 30px;
+#ft {
+  background-color: #F9FCF3;
+}
+#ft img {
+  height: 30px;
+}
+
+footer * {
+  font-family: "SUITE";
+  font-weight: 500;
+}
+footer li {
+  font-weight: 600;
+}
+footer li > a {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+footer li > a:hover {
+  color: #7FAC34;
+}
+footer li > span {
+  padding: 0 10px 0 0;
 }/*# sourceMappingURL=kgr.css.map */

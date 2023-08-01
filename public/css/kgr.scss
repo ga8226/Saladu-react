@@ -120,17 +120,14 @@ section{
            
         }
     }
+    a:hover{
+        color: #7FAC34;  
+    }
     #menulist>li{
         font-size: 22px;
     }
 }
 
-#ft{
-    background-color: #F9FCF3;
-    img{
-        height: 30px;
-    }
-}
 .navbar-expand{ 
     .navbar-nav{
         width:100%;
@@ -237,6 +234,31 @@ section h3{
  .recolor{color: crimson; font-size: 20px;}
  .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%;}
  .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%;}
- .ift{
-    font-size: 30px;
+
+ #ft{
+    background-color: #F9FCF3;
+    img{
+        height: 30px;
+    }
 }
+ footer{
+    *{font-family: 'SUITE';
+      font-weight: 500;}
+
+   li{
+    font-weight: 600;
+    >a{
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+       }
+       >a:hover{
+        color: #7FAC34;
+       }
+    >span{
+        padding: 0 10px 0 0;
+    }      
+   }
+  
+
+ }
