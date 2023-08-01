@@ -222,14 +222,21 @@ section h3{
  margin: 0 auto;
  height: 70px;
  }
-#reimg{
-    height: 70px;
+ .review2{ height: 70px;}
+ .reviewswiper{
+ background-color: #E7FFB7;
+ border-radius: 80px;
  }
+
  #reslide{
     width: 200px;
     height: 70px;
     display: block;
  }
+
+ .recolor{color: crimson; font-size: 20px;}
+ .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%;}
+ .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%;}
  .ift{
     font-size: 30px;
 }

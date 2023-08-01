@@ -161,6 +161,7 @@
             }
         ] ,
         "reicon" : "/img/reviewstar.gif" ,
+        "reicon2" : "/img/heart.png" ,
         "reviewbox" : [
             {
                 "reid" : "happy" ,
