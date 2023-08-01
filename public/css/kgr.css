@@ -225,6 +225,12 @@ section h3 {
   height: 30px;
   padding: 10px 10px;
   border-radius: 50%;
+  border: black;
+}
+.lebu img {
+  height: 30px;
+  margin-top: -20px;
+  margin-left: -12px;
 }
 
 .ribu {
@@ -232,6 +238,46 @@ section h3 {
   height: 30px;
   padding: 10px 10px;
   border-radius: 50%;
+  border: black;
+}
+.ribu img {
+  height: 30px;
+  margin-top: -20px;
+  margin-left: -12px;
+}
+
+section #ST {
+  font-size: 3vw;
+  line-height: 3.9vw;
+  letter-spacing: 1px;
+}
+section #Sst {
+  width: 60%;
+  font-size: 1.2vw;
+  line-height: 2.3vw;
+  margin-top: 1.6vw;
+}
+section .setbtn {
+  width: 30%;
+}
+
+#setup {
+  background-image: url(https://www.dalkomm.com/data/main/slider/tms_img_20230425171838_3.png);
+  background-repeat: no-repeat;
+  background-position: right -139px;
+  background-size: 100%;
+  margin-left: -10px;
+  margin-right: -20px;
+}
+#setup:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 45%, rgba(255, 255, 255, 0.006039916) 61%);
 }
 
 #ft {

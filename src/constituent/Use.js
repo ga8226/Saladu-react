@@ -4,8 +4,8 @@ import { Autoplay} from "swiper";
 export default function Use(props) {  
     return (
         <>
-            <section  id={props.useid} className="container pt-3 pt-lg-5 px-0 px-lg-3 mx-0 mx-lg-auto">
-            <div className="pt-3">
+            <section  id={props.useid} className="pt-3 pt-lg-5 px-2 px-lg-3 mx-0 mx-lg-auto">
+            <div className="pt-3 container">
                 <h2 className='mb-5 center'>💚 이용방법 💚</h2>
                 <div className="jusitfy-content-between align-items-center pt-5">
                     <ul className="d-flex mb-5">
@@ -53,8 +53,11 @@ export default function Use(props) {
                     }
                     </Swiper>
                 </div>
-                <button className='lebu'><a href="#none"><img src="" alt="" /></a></button>
-                <button className='ribu'><a href="#none"><img src="" alt="" /></a></button>
+                <div className='d-flex justify-content-center pt-3'>
+                    <button className='lebu'><a href="#none"><img src="https://cdn-icons-png.flaticon.com/128/215/215642.png" alt="" /></a></button>
+                    <button className='ribu'><a href="#none"><img src="https://cdn-icons-png.flaticon.com/128/157/157103.png" alt="" /></a></button>
+                </div>
+                
             </div>
             </section>
         </>

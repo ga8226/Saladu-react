@@ -186,7 +186,7 @@ section h3{
     padding: 0 10px;
     text-align: left;
     background: rgba(0,0,0,.5);
-    color: white 
+    color: white  
 }
 .view:hover{
     color: #7FAC34;
@@ -232,8 +232,55 @@ section h3{
  }
 
  .recolor{color: crimson; font-size: 20px;}
- .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%;}
- .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%;}
+ .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border:black;
+       img{height: 30px; margin-top: -20px; margin-left: -12px;}
+    }
+ .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border: black;
+  img{height: 30px;  margin-top: -20px; margin-left: -12px;}
+}
+
+ section{
+    #ST{
+        font-size:  3vw;
+        line-height: 3.9vw;
+        letter-spacing: 1px;
+    }
+
+#Sst{
+        width: 60%;
+        font-size: 1.2vw;
+        line-height: 2.3vw;
+        margin-top: 1.6vw
+    }
+    .setbtn{
+        width: 30%;
+    }
+
+ }
+
+ #setup{
+    background-image: url(https://www.dalkomm.com/data/main/slider/tms_img_20230425171838_3.png);
+    background-repeat:  no-repeat;
+    background-position: right -139px;
+    background-size: 100% ;
+    margin-left: -10px;
+    margin-right: -20px;
+
+    &:before{
+        content: "";
+        position: absolute;
+        left:0; right:0; top:0; bottom:0;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,0.006039915966386533) 61%);
+    }
+ }
+
+
+
+
+
+
+
 
  #ft{
     background-color: #F9FCF3;
@@ -241,6 +288,7 @@ section h3{
         height: 30px;
     }
 }
+
  footer{
     *{font-family: 'SUITE';
       font-weight: 500;}
