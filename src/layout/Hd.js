@@ -31,7 +31,7 @@ export default function Hd(props) {
              }
         <Navbar className="d-flex justify-content-between align-items-center mx-lg-5">
        <Navbar.Brand as="h1" className="mb-0 me-0  me-md-4 ">
-                        <a href="#top" className="d-block"><img src="./img/logo.svg" alt="" /></a>
+                        <a href="#top" className="d-block"><img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="" /></a>
        </Navbar.Brand>
                
         <Navbar.Toggle aria-controls="navbar-nav"/>

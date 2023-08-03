@@ -25,10 +25,10 @@ export default function Use(props) {
                     </ul>
                     <p className='center mb-5 pt-4'>{db.Use.useFT}</p>
                 </div>
-                <h2 className='mb-5 center pt-3'><img className='review mt-3 mb-4' src={db.Use.reicon} alt="별이미지"/>✨ 샐러드유 고객들의 별별리뷰 ✨</h2>
+                <h2 className='mb-5 center pt-3'><img className='review mt-3 mb-4' src={process.env.PUBLIC_URL+db.Use.reicon} alt="별이미지"/>✨ 샐러드유 고객들의 별별리뷰 ✨</h2>
                 <div className='d-flex justify-content-between'>
                     <div className='d-flex align-items-center'>
-                    <span><img src={db.Use.reicon2} alt="함께한이미지" className='review2'/></span>
+                    <span><img src={process.env.PUBLIC_URL+db.Use.reicon2} alt="함께한이미지" className='review2'/></span>
                     <p>만족스러운 고객들과 함께한 <strong className='recolor'>2년</strong>이상의 세월</p>
                     </div>
                     <Swiper
