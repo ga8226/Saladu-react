@@ -25,6 +25,10 @@ ul {
   text-align: center;
 }
 
+.g {
+  color: #7FAC34;
+}
+
 header {
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
@@ -198,18 +202,29 @@ section h3 {
   height: 70px;
 }
 
-.review2 {
-  height: 70px;
+#reviewtext {
+  padding-top: 90px;
+}
+#reviewtext > p {
+  font-size: 20px;
+}
+#reviewtext .sc1 {
+  transform: translate(30px, -74px);
+}
+#reviewtext .review2 {
+  height: 45px;
+  transform: rotate(-39deg);
 }
 
-.reviewswiper {
+#reviewswiper {
   background-color: #E7FFB7;
-  border-radius: 80px;
+  border-radius: 20px;
 }
-
-#reslide {
-  width: 200px;
-  height: 70px;
+#reviewswiper p {
+  padding: 25px 20px;
+}
+#reviewswiper .reslide {
+  padding: 50px 0;
   display: block;
 }
 
@@ -223,7 +238,7 @@ section h3 {
   height: 30px;
   padding: 10px 10px;
   border-radius: 50%;
-  border: black;
+  border: #7FAC34;
 }
 .lebu img {
   height: 30px;
@@ -236,7 +251,7 @@ section h3 {
   height: 30px;
   padding: 10px 10px;
   border-radius: 50%;
-  border: black;
+  border: #7FAC34;
 }
 .ribu img {
   height: 30px;
@@ -260,12 +275,10 @@ section .setbtn {
 }
 
 #setup {
-  background-image: url(https://www.dalkomm.com/data/main/slider/tms_img_20230425171838_3.png);
+  background-image: url(https://www.skpucore.com/images/main/hero_back_3.png);
   background-repeat: no-repeat;
-  background-position: right -139px;
+  background-position: right -300px;
   background-size: 100%;
-  margin-left: -10px;
-  margin-right: -20px;
 }
 #setup:before {
   content: "";

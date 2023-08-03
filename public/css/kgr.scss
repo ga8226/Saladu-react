@@ -19,6 +19,7 @@ ul{
 .center{
     text-align: center;
  }
+ .g{color: #7FAC34;}
 header{
     backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.6);
@@ -67,8 +68,7 @@ header{
     }
 }
 #content{
- 
-    padding-top:130px;
+    padding-top: 130px;
     .swiper{
         border-radius: 15px;
     .swiper-slide{
@@ -212,28 +212,41 @@ section h3{
     border-radius: 10px 10px;    
  }
  .review{
- width: 81px;
- display: block;
- margin: 0 auto;
- height: 70px;
- }
- .review2{ height: 70px;}
- .reviewswiper{
- background-color: #E7FFB7;
- border-radius: 80px;
+    width: 81px;
+    display: block;
+    margin: 0 auto;
+    height: 70px;
+    }
+
+ #reviewtext{
+    padding-top: 90px;
+    >p{font-size: 20px;}
+    .sc1{transform: translate(30px, -74px);}
+    .review2{height: 45px; transform: rotate(-39deg);}
  }
 
- #reslide{
-    width: 200px;
-    height: 70px;
-    display: block;
- }
+
+  
+    #reviewswiper{
+        background-color: #E7FFB7;
+        border-radius: 20px;
+        p{padding: 25px 20px;}
+         .reslide{
+            padding: 50px 0;
+           display: block; 
+          }
+        }
+       
+
+
+
+
 
  .recolor{color: crimson; font-size: 20px;}
- .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border:black;
+ .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border:#7FAC34;
        img{height: 30px; margin-top: -20px; margin-left: -12px;}
     }
- .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border: black;
+ .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border: #7FAC34;
   img{height: 30px;  margin-top: -20px; margin-left: -12px;}
 }
 
@@ -257,12 +270,11 @@ section h3{
  }
 
  #setup{
-    background-image: url(https://www.dalkomm.com/data/main/slider/tms_img_20230425171838_3.png);
+    background-image: url(https://www.skpucore.com/images/main/hero_back_3.png);
     background-repeat:  no-repeat;
-    background-position: right -139px;
+    background-position: right -300px;
     background-size: 100% ;
-    margin-left: -10px;
-    margin-right: -20px;
+
 
     &:before{
         content: "";

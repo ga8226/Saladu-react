@@ -4,7 +4,7 @@ import db from '../data/db.json'
 export default function Banner(props) {  
     return (
         <>
-   
+   <div className="px-5">
             <Swiper
             id={props.id}
              spaceBetween={0}
@@ -34,6 +34,7 @@ export default function Banner(props) {
       
         
       </Swiper>
+      </div>
             
        
         </>
