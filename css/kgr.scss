@@ -1,0 +1,312 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'NS';
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    font-weight: 400;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+}
+.center{
+    text-align: center;
+ }
+header{
+    backdrop-filter: blur(15px);
+    background-color: rgba(255, 255, 255, 0.6);
+   img{
+    height: 30px;
+   }
+   li{
+
+    &.active{
+        a{
+            color: #7FAC34 !important; 
+        }
+    }
+    
+    i{
+        color: #7FAC34;
+        font-size: 40px;
+        margin-bottom: 0;
+    }
+    a{
+        color: black;
+        font-size: 15px;
+        font-weight: 500;
+        
+
+        &:hover{
+            color: #7FAC34 !important;
+        }
+    }
+   }
+    #event{
+        background-color: #7FAC34;
+        font-size: 15px;
+    }
+    button{
+        font-family: 'NS';
+        border: 0;
+        background-color: #7FAC34;
+
+        
+    }
+     i{
+        font-size: 20px;
+       color: white;
+       line-height: 0;
+    }
+}
+#content{
+
+    padding-top:130px;
+    .swiper{
+    padding-left: 20px;
+    padding-right: 20px;
+        border-radius: 15px;
+    .swiper-slide{
+        min-height:370px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        
+       
+    }
+   }
+    
+.bg1{
+   
+    background-image: url(../img/slide1.jpg);
+    
+ 
+}
+.bg2{
+  
+    background-image: url(../img/slide2.jpg);
+    
+}
+.bg3{
+    
+    background-image: url(../img/slide3.jpg);
+   
+}
+.bg4{
+   
+    background-image: url(../img/slide4.jpg);
+   
+}
+}
+
+section{
+    
+    button{
+        padding: 12px 0;
+        border: solid 2px #7FAC34;
+        background-color: white;
+        border-radius: 6px;
+        width: 90%;
+        a{
+            color: #7FAC34;
+            text-decoration: none;
+           
+        }
+    }
+    a:hover{
+        color: #7FAC34;  
+    }
+    #menulist>li{
+        font-size: 22px;
+    }
+}
+
+.navbar-expand{ 
+    .navbar-nav{
+        width:100%;
+        align-items: center;
+    } 
+}
+
+#mainBanner{
+    .swiper-pagination-bullet{
+        width:13px;
+        height:13px;
+        &.swiper-pagination-bullet-active{
+           background-color:#7FAC34
+
+        }
+    }
+
+}
+#menu{
+    text-align: center;
+}
+.youtubebox{
+    > div{
+    height: 0;
+    padding-top: 54%;
+    border-radius: 22px;
+        iframe{
+            height: 100%; 
+            left:0; 
+            top:0;
+        }
+   }
+}
+
+#deco a{
+    font-size: 20px;
+    color: #212529;
+}
+
+section #menulist > li{
+font-size: 18px;
+font-weight: 300;
+}
+section h3{
+    font-size: 29px;
+   font-weight: 600;
+    color: #212529;
+}
+.view{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 34px;
+    line-height: 34px;
+    padding: 0 10px;
+    text-align: left;
+    background: rgba(0,0,0,.5);
+    color: white  
+}
+.view:hover{
+    color: #7FAC34;
+}
+
+#explain>p{
+    font-weight: 200;
+ >span{
+   
+    font-weight: 600;
+ }
+}
+#explain strong{
+    font-size: 18px;
+}
+.nonsale{
+    color: #888;
+    font-size: 16px;
+    font-weight: 200;
+ }
+
+ #useimg{
+    height: 70px;
+    background-color: #E7FFB7;
+    border-radius: 10px 10px;    
+ }
+ .review{
+ width: 81px;
+ display: block;
+ margin: 0 auto;
+ height: 70px;
+ }
+ .review2{ height: 70px;}
+ .reviewswiper{
+ background-color: #E7FFB7;
+ border-radius: 80px;
+ }
+
+ #reslide{
+    width: 200px;
+    height: 70px;
+    display: block;
+ }
+
+ .recolor{color: crimson; font-size: 20px;}
+ .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border:black;
+       img{height: 30px; margin-top: -20px; margin-left: -12px;}
+    }
+ .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border: black;
+  img{height: 30px;  margin-top: -20px; margin-left: -12px;}
+}
+
+ section{
+    #ST{
+        font-size:  3vw;
+        line-height: 3.9vw;
+        letter-spacing: 1px;
+    }
+
+#Sst{
+        width: 60%;
+        font-size: 1.2vw;
+        line-height: 2.3vw;
+        margin-top: 1.6vw
+    }
+    .setbtn{
+        width: 30%;
+    }
+
+ }
+
+ #setup{
+    background-image: url(https://www.dalkomm.com/data/main/slider/tms_img_20230425171838_3.png);
+    background-repeat:  no-repeat;
+    background-position: right -139px;
+    background-size: 100% ;
+    margin-left: -10px;
+    margin-right: -20px;
+
+    &:before{
+        content: "";
+        position: absolute;
+        left:0; right:0; top:0; bottom:0;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,0.006039915966386533) 61%);
+    }
+ }
+
+
+
+
+
+
+
+
+ #ft{
+    background-color: #F9FCF3;
+    img{
+        height: 30px;
+    }
+}
+
+ footer{
+    *{font-family: 'SUITE';
+      font-weight: 500;}
+
+   li{
+    font-weight: 600;
+    >a{
+        font-size: 20px;
+        font-weight: 600;
+        color: black;
+       }
+       >a:hover{
+        color: #7FAC34;
+       }
+    >span{
+        padding: 0 10px 0 0;
+    }      
+   }
+  
+
+ }
