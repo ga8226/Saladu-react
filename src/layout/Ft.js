@@ -4,7 +4,7 @@ export default function Ft(props) {
             <footer id="ft">
                 <div className=" pt-3 pt-lg-4 mx-lg-5">
                     <div className="d-flex justify-content-between align-items-center">
-                         <img src="../img/logo.svg" alt="푸터로고" className="img-fluid"/>
+                         <img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="푸터로고" className="img-fluid"/>
                          <div>
                             <ul className="d-lg-flex mb-0 d-md-none">
                                 <li><a href="#none">고객문의</a></li>
