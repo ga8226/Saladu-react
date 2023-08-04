@@ -189,74 +189,69 @@ section h3 {
   font-weight: 200;
 }
 
-#useimg {
-  height: 70px;
-  background-color: #E7FFB7;
-  border-radius: 10px 10px;
-}
-
-.review {
-  width: 81px;
-  display: block;
-  margin: 0 auto;
-  height: 70px;
-}
-
-#reviewtext {
-  padding-top: 90px;
-}
-#reviewtext > p {
+#use strong {
   font-size: 20px;
 }
-#reviewtext .sc1 {
-  transform: translate(30px, -74px);
-}
-#reviewtext .review2 {
-  height: 45px;
-  transform: rotate(-39deg);
-}
-
-#reviewswiper {
-  background-color: #E7FFB7;
-  border-radius: 20px;
-}
-#reviewswiper p {
-  padding: 25px 20px;
-}
-#reviewswiper .reslide {
-  padding: 50px 0;
-  display: block;
-}
-
-.recolor {
+#use .recolor {
   color: crimson;
   font-size: 20px;
 }
-
-.lebu {
-  width: 30px;
-  height: 30px;
-  padding: 10px 10px;
+#use .review {
+  width: 95px;
+  display: block;
+  margin: 0 auto;
+  height: 80px;
+}
+#use #reviewtext {
+  padding-top: 90px;
+}
+#use #reviewtext > p {
+  font-size: 20px;
+}
+#use #reviewtext .sc1 {
+  transform: translate(30px, -74px);
+}
+#use #reviewtext .review2 {
+  height: 45px;
+  transform: rotate(-39deg);
+}
+#use #reviewswiper {
+  background-color: #E7FFB7;
+  border-radius: 20px;
+}
+#use #reviewswiper p {
+  padding: 25px 20px;
+}
+#use #reviewswiper .reslide {
+  padding: 50px 0;
+  display: block;
+}
+#use .swiper {
+  height: 100%;
+  text-align: center;
+}
+#use .swiper .swiper-button-prev,
+#use .swiper .swiper-button-next {
+  position: unset;
+  display: inline-block;
+  margin: 10px 5px;
+  width: 2rem;
+  height: 2em;
   border-radius: 50%;
-  border: #7FAC34;
+  border: 2px solid #7FAC34;
 }
-.lebu img {
-  height: 30px;
-  margin-top: -20px;
-  margin-left: -12px;
+#use .swiper .swiper-button-prev:after,
+#use .swiper .swiper-button-next:after {
+  font-size: 18px;
+  color: #7fac34;
+  line-height: 1.8rem;
+  font-family: bootstrap-icons !important;
 }
-
-.ribu {
-  width: 30px;
-  height: 30px;
-  padding: 10px 10px;
-  border-radius: 50%;
-  border: #7FAC34;
+#use .swiper .swiper-button-prev:after {
+  content: "\f284";
 }
-.ribu img {
-  height: 30px;
-  margin-top: -20px;
-  margin-left: -12px;
+#use .swiper .swiper-button-next:after {
+  content: "\f285";
 }
 
 section #ST {

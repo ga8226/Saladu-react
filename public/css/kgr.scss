@@ -206,49 +206,71 @@ section h3{
     font-weight: 200;
  }
 
- #useimg{
-    height: 70px;
-    background-color: #E7FFB7;
-    border-radius: 10px 10px;    
- }
- .review{
-    width: 81px;
-    display: block;
-    margin: 0 auto;
-    height: 70px;
-    }
 
- #reviewtext{
-    padding-top: 90px;
-    >p{font-size: 20px;}
-    .sc1{transform: translate(30px, -74px);}
-    .review2{height: 45px; transform: rotate(-39deg);}
- }
+    
 
-
-  
-    #reviewswiper{
-        background-color: #E7FFB7;
-        border-radius: 20px;
-        p{padding: 25px 20px;}
-         .reslide{
-            padding: 50px 0;
-           display: block; 
-          }
+ #use{
+    strong{font-size: 20px;}
+    .recolor{color: crimson; font-size: 20px;}
+    .review{
+        width: 95px;
+        display: block;
+        margin: 0 auto;
+        height: 80px;
         }
-       
+    
+     #reviewtext{
+        padding-top: 90px;
+        >p{font-size: 20px;}
+        .sc1{transform: translate(30px, -74px);}
+        .review2{height: 45px; transform: rotate(-39deg);}
+     }
+        #reviewswiper{
+            background-color: #E7FFB7;
+            border-radius: 20px;
+            p{padding: 25px 20px;}
+             .reslide{
+                padding: 50px 0;
+               display: block; 
+              }
+            }
 
+ .swiper { 
+    height: 100%;
+    text-align: center;
+    .swiper-button-prev,
+    .swiper-button-next{
+      position: unset;
+      display: inline-block;
+      margin: 10px 5px ;
+      width:2rem;
+      height:2em;      
+      border-radius: 50%;
+      border:2px solid #7FAC34
+      
+     
+   }
+   .swiper-button-prev:after,
+   .swiper-button-next:after{
+    font-size: 18px;
+    color: #7fac34;
+    line-height: 1.8rem;    
+    font-family: bootstrap-icons!important;
 
+   }
+   .swiper-button-prev:after{
+    content: "\F284";
+   }
+   .swiper-button-next:after{
+    content: "\F285";
+   }
+   
 
-
-
- .recolor{color: crimson; font-size: 20px;}
- .lebu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border:#7FAC34;
-       img{height: 30px; margin-top: -20px; margin-left: -12px;}
-    }
- .ribu{width: 30px; height: 30px; padding: 10px 10px; border-radius: 50%; border: #7FAC34;
-  img{height: 30px;  margin-top: -20px; margin-left: -12px;}
+   
+ }
 }
+
+
 
  section{
     #ST{
