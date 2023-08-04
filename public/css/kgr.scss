@@ -282,7 +282,6 @@ section h3{
 }
 
 
-
  section{
     #ST{
         font-size:  46px;
@@ -319,10 +318,21 @@ section h3{
  }
 
 
-
-
-
-
+#form{
+    #Qbox{
+        border-bottom: solid 2px skyblue;
+    }
+    .number{
+        display: flex;
+        width: 50px;;
+        height: 50px;
+        background-color: aqua;
+        color: white;
+        align-items: center;
+        justify-content: center;
+        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    }
+}
 
 
  #ft{
