@@ -210,7 +210,18 @@ section h3{
     
 
  #use{
-    strong{font-size: 20px;}
+    #use1{background-color: #f8f8f8;}
+    #use2{background-image: url(https://simage.lottechilsung.co.kr/main/bg_banner03.jpg);
+          background-position: right;
+          height: 598px;           
+    }
+    #usede{
+        img{width: 90px;}
+        p{font-weight: 100;}
+        strong{font-size: 23px; color: #7FAC34;}
+        
+    }
+    .f19{font-size: 19px;}
     .recolor{color: crimson; font-size: 20px;}
     .review{
         width: 95px;
@@ -274,16 +285,16 @@ section h3{
 
  section{
     #ST{
-        font-size:  3vw;
-        line-height: 3.9vw;
-        letter-spacing: 1px;
+        font-size:  46px;
+        line-height: 2;
+       
     }
 
 #Sst{
         width: 60%;
-        font-size: 1.2vw;
-        line-height: 2.3vw;
-        margin-top: 1.6vw
+        font-size: 20px;
+        line-height: 2;
+        margin: 15px 6px;
     }
     .setbtn{
         width: 30%;
