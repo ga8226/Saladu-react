@@ -10,13 +10,20 @@ export default function Form(props) {
                     
                         <h2 className="center">{db.Form.Ftitle}</h2>
                    
-                    <ul className='col-md-10 mx-auto'>
+                    <ul className='col-md-10 mx-auto' id='qna'>
                         {
                             db.Form.Qlist.map((v,i)=>{
                                 return(
-                                    <li className='center'>
-                                        <h3 id='Qbox' onClick={()=>{ openSet(!openp);  }}><div className='number'></div>{v.Q}</h3>
-                                        { openp && <p>{v.A}</p> }
+                                    <li >
+                                      <a href="#none">
+                                        <div>{v.Q}</div>
+                                      </a>
+                                        <div className='pa10'>
+                                            <div>
+                                                <p>{v.A}</p>
+                                            </div>
+                                        </div>
+
                                     </li>
                                 )
                             })

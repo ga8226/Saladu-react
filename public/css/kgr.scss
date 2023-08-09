@@ -20,6 +20,18 @@ ul{
     text-align: center;
  }
  .g{color: #7FAC34;}
+
+ .fw100{
+    font-weight: 100 !important;
+ }
+
+ .fw500{
+    font-weight: 500 !important;
+ }
+
+ .fw600{
+    font-weight: 600 !important;
+ }
 header{
     backdrop-filter: blur(15px);
     background-color: rgba(255, 255, 255, 0.6);
@@ -169,9 +181,9 @@ section #menulist > li{
 font-size: 18px;
 font-weight: 300;
 }
-section h3{
-    font-size: 29px;
-   font-weight: 600;
+
+#metitle h3{
+    font-size: 29px;   
     color: #212529;
 }
 .view{
@@ -210,33 +222,40 @@ section h3{
     
 
  #use{
-    #use1{background-color: #f8f8f8;}
-    #use2{background-image: url(https://simage.lottechilsung.co.kr/main/bg_banner03.jpg);
-          background-position: right;
-          height: 598px;           
-    }
-    #usede{
-        img{width: 90px;}
-        p{font-weight: 100;}
-        strong{font-size: 23px; color: #7FAC34;}
-        
-    }
-    .f19{font-size: 19px;}
-    .recolor{color: crimson; font-size: 20px;}
-    .review{
-        width: 95px;
-        display: block;
-        margin: 0 auto;
-        height: 80px;
+        #use1{background-color: #f8f8f8;}
+        #use2{background-image: url(../img/deco.png);
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            background-position: center; 
+                span{font-size: 25px;}         
         }
+        #usede{
+            img{width: 90px;}
+            p{font-weight: 100;}
+            strong{font-size: 23px; color: #7FAC34;}
+            
+        }
+        .f19{font-size: 19px;}
+        .recolor{color: crimson; font-size: 20px;}
+        .review{
+            width: 95px;
+            display: block;
+            margin: 0 auto;
+            height: 80px;
+            }
     
-     #reviewtext{
-        padding-top: 90px;
-        >p{font-size: 20px;}
-        .sc1{transform: translate(30px, -74px);}
-        .review2{height: 45px; transform: rotate(-39deg);}
-     }
-        #reviewswiper{
+        #reviewtext{
+            
+            padding-top: 90px;
+            >p{font-size: 20px;}
+            .sc1{transform: translate(30px, -74px);}
+            .review2{height: 45px; transform: rotate(-39deg);}
+        
+        }
+    }
+      
+     
+  #reviewswiper{
             background-color: #E7FFB7;
             border-radius: 20px;
             p{padding: 25px 20px;}
@@ -246,63 +265,62 @@ section h3{
               }
             }
 
- .swiper { 
-    height: 100%;
-    text-align: center;
-    .swiper-button-prev,
-    .swiper-button-next{
-      position: unset;
-      display: inline-block;
-      margin: 10px 5px ;
-      width:2rem;
-      height:2em;      
-      border-radius: 50%;
-      border:2px solid #7FAC34
-      
-     
-   }
-   .swiper-button-prev:after,
-   .swiper-button-next:after{
-    font-size: 18px;
-    color: #7fac34;
-    line-height: 1.8rem;    
-    font-family: bootstrap-icons!important;
+.swiper { 
+        height: 100%;
+        text-align: center;
+        .swiper-button-prev,
+        .swiper-button-next{
+        position: unset;
+        display: inline-block;
+        margin: 10px 5px ;
+        width:2rem;
+        height:2em;      
+        border-radius: 50%;
+        border:2px solid #7FAC34
+        
+        
+    }
+    .swiper-button-prev:after,
+    .swiper-button-next:after{
+        font-size: 18px;
+        color: #7fac34;
+        line-height: 1.8rem;    
+        font-family: bootstrap-icons!important;
 
-   }
-   .swiper-button-prev:after{
-    content: "\F284";
-   }
-   .swiper-button-next:after{
-    content: "\F285";
-   }
-   
+    }
+    .swiper-button-prev:after{
+        content: "\F284";
+    }
+    .swiper-button-next:after{
+        content: "\F285";
+    }
+    
 
-   
+    
  }
-}
 
 
- section{
-    #ST{
-        font-size:  46px;
-        line-height: 2;
-       
-    }
+ section{   
+        #ST{
+            font-size:  46px;
+            line-height: 2;
+        
+        }
 
-#Sst{
-        width: 60%;
-        font-size: 20px;
-        line-height: 2;
-        margin: 15px 6px;
-    }
-    .setbtn{
-        width: 30%;
-    }
+    #Sst{
+            width: 60%;
+            font-size: 20px;
+            line-height: 2;
+            margin: 15px 6px;
+        }
+        .setbtn{
+            width: 30%;
+        }
 
- }
+       }
 
  #setup{
-    background-image: url(https://www.skpucore.com/images/main/hero_back_3.png);
+    background-image: url(../img/ftimg.jpg);
     background-repeat:  no-repeat;
     background-position: right -300px;
     background-size: 100% ;
@@ -313,25 +331,20 @@ section h3{
         position: absolute;
         left:0; right:0; top:0; bottom:0;
         background: rgb(255,255,255);
-        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 45%, rgba(255,255,255,0.006039915966386533) 61%);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.006039915966386533) 56%);
     }
  }
 
 
 #form{
-    #Qbox{
-        border-bottom: solid 2px skyblue;
-    }
-    .number{
-        display: flex;
-        width: 50px;;
-        height: 50px;
-        background-color: aqua;
-        color: white;
-        align-items: center;
-        justify-content: center;
-        clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
-    }
+  h2{
+    font-weight: 600 !important;
+    font-size: 24px;
+    margin-bottom: 25px;
+  }
+  #qna li{padding: 10px 10px;}
+  .pa10{padding: 10px 0;}
+    
 }
 
 
@@ -345,7 +358,7 @@ section h3{
  footer{
     *{font-family: 'SUITE';
       font-weight: 500;}
-
+    
    li{
     font-weight: 600;
     >a{
