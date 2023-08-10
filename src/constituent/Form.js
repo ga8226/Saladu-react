@@ -1,8 +1,16 @@
 import db from '../data/db.json'
 import React,{ useState } from 'react'
-export default function Form(props) {  
- const [openp, openSet] = useState(false); 
+  export default function Form(props) {
+    const [activeQuestion, setActiveQuestion] = useState(null);
 
+    const toggleAnswer = (index) => {
+        if (activeQuestion === index) {
+            setActiveQuestion(null);
+        } else {
+            setActiveQuestion(index);
+        }
+    };
+       
     return (
         <>
             <form id={props.useid} className='py-5'>
@@ -14,25 +22,28 @@ export default function Form(props) {
                         {
                             db.Form.Qlist.map((v,i)=>{
                                 return(
-                                    <li >
-                                      <a href="#none">
+                                    <li key={i}>
+                                      <a href="#none" onClick={() => toggleAnswer(i)}>
                                         <div>{v.Q}</div>
                                       </a>
-                                        <div className='pa10'>
+                                        <div className={`answer ${activeQuestion === i ? 'active' : ''}`}>
                                             <div>
                                                 <p>{v.A}</p>
                                             </div>
                                         </div>
-
-                                    </li>
+                                  
+                                </li>
                                 )
                             })
                         }
                     </ul>
+                    <form action="">
+
+                    </form>
                 
                 </div> 
             </form>
         </>
     )
-}
 
+                }

@@ -15,7 +15,7 @@ export default function Use(props) {
                                  {
                                      db.Use.explain.map((v,i)=>{
                                            return(
-                                             <li className='col-4 px-4 center' id="usede">
+                                             <li className='col-lg-4 col-12 px-4  py-md-3 py-lg-0 center' id="usede">
                                                  <div className='center'><img src={v.useicon} alt=""  className='img-fluid'/></div>
                                                    <div className='py-4'>
                                                    <strong>{v.usenum}</strong>

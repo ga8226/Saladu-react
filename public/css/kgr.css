@@ -41,6 +41,10 @@ ul {
   font-weight: 600 !important;
 }
 
+.ft18 {
+  font-size: 18px;
+}
+
 header {
   -webkit-backdrop-filter: blur(15px);
           backdrop-filter: blur(15px);
@@ -105,14 +109,14 @@ header i {
   background-image: url(../img/slide4.jpg);
 }
 
-section button {
+section #metitle button {
   padding: 12px 0;
   border: solid 2px #7FAC34;
   background-color: white;
   border-radius: 6px;
   width: 90%;
 }
-section button a {
+section #metitle button a {
   color: #7FAC34;
   text-decoration: none;
 }
@@ -138,6 +142,19 @@ section #menulist > li {
 
 #menu {
   text-align: center;
+}
+
+#metab li:hover button {
+  color: #7FAC34;
+}
+#metab li button {
+  height: 40px;
+  padding: 0 16px;
+  border: #ddd 1px solid;
+  border-radius: 40px;
+  color: #777;
+  background-color: white;
+  box-sizing: border-box;
 }
 
 .youtubebox > div {
@@ -301,6 +318,16 @@ section #Sst {
 }
 section .setbtn {
   width: 30%;
+  padding: 12px 0;
+  border: solid 2px #7FAC34;
+  background-color: white;
+  border-radius: 6px;
+}
+section .setbtn > a {
+  color: #7FAC34;
+}
+section .setbtn a:hover {
+  color: indianred;
 }
 
 #setup {
@@ -323,13 +350,61 @@ section .setbtn {
 #form h2 {
   font-weight: 600 !important;
   font-size: 24px;
-  margin-bottom: 25px;
+  margin-bottom: 45px;
 }
-#form #qna li {
-  padding: 10px 10px;
+#form li > a > div {
+  font-size: 18px;
 }
-#form .pa10 {
-  padding: 10px 0;
+#form #qna li a {
+  position: relative;
+  display: block;
+  padding: 30px 0 30px 85px;
+  color: rgb(36, 36, 36);
+}
+#form #qna li a:hover {
+  color: #7FAC34;
+}
+#form p, #form div {
+  line-height: 1.4;
+}
+#form li {
+  border-top: solid 1px gainsboro;
+  border-bottom: solid 1px gainsboro;
+  margin-top: -1px;
+}
+#form li > a > div:after {
+  content: "";
+  position: absolute;
+  left: 30px;
+  top: 23px;
+  background: url(../img/qnaicon1.jpg) no-repeat;
+  width: 34px;
+  height: 34px;
+}
+#form #qna div p {
+  position: relative;
+  display: block;
+  padding: 15px 0 30px 85px;
+}
+#form li div > p:after {
+  content: "";
+  position: absolute;
+  left: 28px;
+  top: 25px;
+  background: url(../img/qnaicon2.jpg) no-repeat;
+  width: 34px;
+  height: 34px;
+}
+#form .answer {
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out, opacity 0.5s ease-out;
+}
+#form .answer.active {
+  max-height: 100px;
+  opacity: 1;
+  transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
 }
 
 #ft {
