@@ -176,27 +176,45 @@
         "reicon2" : "/img/heart.png" ,
         "reviewbox" : [
             {
-                "reid" : "id: happy" ,
+                "reimg" : "/img/reback1.png",
+                "rename" : "이*영",
+                "resubde" : "골든샐러디",
+                "retitle" : "역시 샐러드유!" ,
                 "realview" : "채소를 꼭 먹어야 하지만 채소는 먹기 싫은 사람들 내가 직접 만드는 건강주스 마시고 몸도 마음도 가벼워 지세요 이거 먹고 안색도 좋아졌다는 소리 많이 들어요 강추입니다"
             } ,
             {
-                "reid" : "id: happy" ,
+                "reimg" : "/img/reback2.png",
+                "rename" : "오*주",
+                "resubde" : "새싹샐러디",
+                "retitle" : "작심삼일 타파!" ,
                 "realview" : "채소를 꼭 먹어야 하지만 채소는 먹기 싫은 사람들 내가 직접 만드는 건강주스 마시고 몸도 마음도 가벼워 지세요 이거 먹고 안색도 좋아졌다는 소리 많이 들어요 강추입니다"
             } ,
             {
-                "reid" : "id: happy" ,
+                "reimg" : "/img/reback3.png",
+                "rename" : "김*미",
+                "resubde" : "건강초보자",
+                "retitle" : "건강 성공적" ,
                 "realview" : "채소를 꼭 먹어야 하지만 채소는 먹기 싫은 사람들 내가 직접 만드는 건강주스 마시고 몸도 마음도 가벼워 지세요 이거 먹고 안색도 좋아졌다는 소리 많이 들어요 강추입니다"
             } ,
             {
-                "reid" : "id: happy" ,
+                "reimg" : "/img/reback4.png",
+                "rename" : "배*준",
+                "resubde" : "마법의 2주",
+                "retitle" : "다이어트 포기자였는데" ,
                 "realview" : "채소를 꼭 먹어야 하지만 채소는 먹기 싫은 사람들 내가 직접 만드는 건강주스 마시고 몸도 마음도 가벼워 지세요 이거 먹고 안색도 좋아졌다는 소리 많이 들어요 강추입니다"
             } ,
             {
-                "reid" : "id: happy" ,
+                "reimg" : "/img/reback1.png",
+                "rename" : "이*영",
+                "resubde" : "출출하면 샐러드유",
+                "retitle" : "배고파유? 샐러드유!" ,
                 "realview" : "채소를 꼭 먹어야 하지만 채소는 먹기 싫은 사람들 내가 직접 만드는 건강주스 마시고 몸도 마음도 가벼워 지세요 이거 먹고 안색도 좋아졌다는 소리 많이 들어요 강추입니다"
             } ,
             {
-                "reid" : "id: happy" ,
+                "reimg" : "/img/reback4.png",
+                "rename" : "오*주",
+                "resubde" : "건강도 맛도",
+                "retitle" : "두마리 토끼 성공!" ,
                 "realview" : "채소를 꼭 먹어야 하지만 채소는 먹기 싫은 사람들 내가 직접 만드는 건강주스 마시고 몸도 마음도 가벼워 지세요 이거 먹고 안색도 좋아졌다는 소리 많이 들어요 강추입니다"
             }
         ]

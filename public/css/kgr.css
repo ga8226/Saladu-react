@@ -157,6 +157,10 @@ section #menulist > li {
   box-sizing: border-box;
 }
 
+#mepick {
+  padding: 10px 0;
+}
+
 .youtubebox > div {
   height: 0;
   padding-top: 54%;
@@ -179,6 +183,7 @@ section #menulist > li {
 }
 
 #metitle h3 {
+  font-weight: 600;
   font-size: 29px;
   color: #212529;
 }
@@ -219,15 +224,31 @@ section #menulist > li {
 
 #use #use1 {
   background-color: #f8f8f8;
+  padding: 100px 0;
 }
 #use #use2 {
-  background-image: url(../img/deco.png);
+  background-image: url(../img/decoback.png);
   background-repeat: no-repeat;
   background-size: auto 100%;
   background-position: center;
+  padding: 90px 0;
 }
-#use #use2 span {
-  font-size: 25px;
+@media (min-width: 768px) and (max-width: 991px) {
+  #use #use2 .md-bg {
+    background-image: url(../img/decoback.png);
+    background-size: cover;
+    background-position: center;
+  }
+}
+#use #use2 .container:before {
+  content: "";
+  background-image: url(../img/decoback2.png);
+  position: absolute;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width: 200px;
+  height: 200px;
 }
 #use #usede img {
   width: 90px;
@@ -252,9 +273,6 @@ section #menulist > li {
   margin: 0 auto;
   height: 80px;
 }
-#use #reviewtext {
-  padding-top: 90px;
-}
 #use #reviewtext > p {
   font-size: 20px;
 }
@@ -266,24 +284,15 @@ section #menulist > li {
   transform: rotate(-39deg);
 }
 
-#reviewswiper {
-  background-color: #E7FFB7;
-  border-radius: 20px;
-}
-#reviewswiper p {
-  padding: 25px 20px;
-}
-#reviewswiper .reslide {
-  padding: 50px 0;
-  display: block;
-}
-
-.swiper {
+#use2 .swiper {
   height: 100%;
   text-align: center;
 }
-.swiper .swiper-button-prev,
-.swiper .swiper-button-next {
+#use2 .swiper .swiper-wrapper {
+  width: 650px;
+}
+#use2 .swiper .swiper-button-prev,
+#use2 .swiper .swiper-button-next {
   position: unset;
   display: inline-block;
   margin: 10px 5px;
@@ -292,18 +301,45 @@ section #menulist > li {
   border-radius: 50%;
   border: 2px solid #7FAC34;
 }
-.swiper .swiper-button-prev:after,
-.swiper .swiper-button-next:after {
+#use2 .swiper .swiper-button-prev:after,
+#use2 .swiper .swiper-button-next:after {
   font-size: 18px;
   color: #7fac34;
   line-height: 1.8rem;
   font-family: bootstrap-icons !important;
 }
-.swiper .swiper-button-prev:after {
+#use2 .swiper .swiper-button-prev:after {
   content: "\f284";
 }
-.swiper .swiper-button-next:after {
+#use2 .swiper .swiper-button-next:after {
   content: "\f285";
+}
+#use2 .swiper #reviewswiper {
+  background-color: rgba(255, 255, 255, 0.783);
+  border-radius: 20px;
+  border: solid 2px #7fac34;
+}
+#use2 .swiper #reviewswiper > div {
+  padding: 15px 10px;
+}
+#use2 .swiper #reviewswiper .re1 {
+  border-bottom: solid 1px gainsboro;
+  padding: 10px 15px;
+}
+#use2 .swiper #reviewswiper .re1 > div {
+  padding: 0 20px;
+}
+#use2 .swiper #reviewswiper .re1 > div span {
+  font-weight: 100;
+}
+#use2 .swiper #reviewswiper .re2 {
+  padding: 30px 10px;
+}
+#use2 .swiper #reviewswiper .re2 p {
+  font-weight: 100;
+}
+#use2 .swiper #reviewswiper .re2 h4 {
+  font-weight: 600;
 }
 
 section #ST {
@@ -349,7 +385,6 @@ section .setbtn a:hover {
 
 #form h2 {
   font-weight: 600 !important;
-  font-size: 24px;
   margin-bottom: 45px;
 }
 #form li > a > div {

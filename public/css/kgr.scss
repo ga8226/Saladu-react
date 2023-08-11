@@ -175,6 +175,7 @@ section{
     }
 
 }
+#mepick{padding: 10px 0;}
 
 .youtubebox{
     > div{
@@ -201,6 +202,7 @@ font-weight: 300;
 }
 
 #metitle h3{
+    font-weight: 600;
     font-size: 29px;   
     color: #212529;
 }
@@ -236,16 +238,37 @@ font-weight: 300;
     font-weight: 200;
  }
 
-
+ 
     
 
  #use{
-        #use1{background-color: #f8f8f8;}
-        #use2{background-image: url(../img/deco.png);
+        #use1{background-color: #f8f8f8; padding: 100px 0;}
+        #use2{background-image: url(../img/decoback.png);
             background-repeat: no-repeat;
             background-size: auto 100%;
             background-position: center; 
-                span{font-size: 25px;}         
+            padding:90px 0;
+            @media (min-width: 768px) and (max-width: 991px) {
+                .md-bg {
+                  background-image: url(../img/decoback.png); 
+                  background-size: cover;
+                  background-position: center;
+                }
+              }
+          
+           
+            .container:before{
+                content: "";
+                background-image: url(../img/decoback2.png);
+                position: absolute;
+                background-repeat: no-repeat;
+                background-size: 100%;
+                background-position: center;
+                width: 200px;
+                height: 200px;
+                
+            }
+                 
         }
         #usede{
             img{width: 90px;}
@@ -263,8 +286,6 @@ font-weight: 300;
             }
     
         #reviewtext{
-            
-            padding-top: 90px;
             >p{font-size: 20px;}
             .sc1{transform: translate(30px, -74px);}
             .review2{height: 45px; transform: rotate(-39deg);}
@@ -273,19 +294,14 @@ font-weight: 300;
     }
       
      
-  #reviewswiper{
-            background-color: #E7FFB7;
-            border-radius: 20px;
-            p{padding: 25px 20px;}
-             .reslide{
-                padding: 50px 0;
-               display: block; 
-              }
-            }
+ 
 
-.swiper { 
+#use2 .swiper { 
         height: 100%;
         text-align: center;
+         .swiper-wrapper{
+            width: 650px;
+         }           
         .swiper-button-prev,
         .swiper-button-next{
         position: unset;
@@ -312,6 +328,29 @@ font-weight: 300;
     .swiper-button-next:after{
         content: "\F285";
     }
+    #reviewswiper{
+        background-color: rgba(255, 255, 255, 0.783);
+        border-radius: 20px;
+       >div{padding: 15px 10px;}
+       .re1{
+        border-bottom: solid 1px gainsboro;
+        padding: 10px 15px;
+        >div{
+            padding: 0 20px;
+            span{
+                font-weight: 100;
+            }
+        }
+       }
+       border: solid 2px #7fac34;
+       .re2{
+        padding: 30px 10px;
+        p{font-weight: 100;}
+        h4{font-weight: 600;}
+       }
+       
+         
+        }
     
 
     
@@ -366,7 +405,6 @@ font-weight: 300;
 #form{
   h2{
     font-weight: 600 !important;
-    font-size: 24px;
     margin-bottom: 45px;
   }
  

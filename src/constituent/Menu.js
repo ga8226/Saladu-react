@@ -1,8 +1,9 @@
 import db from '../data/db.json'
 import React,{ useState } from 'react'
+import Aos from 'aos';
 export default function  Menu(props) { 
-  
     return (
+      
   
         <>
         <section id={props.useid} className="pt-3 pt-lg-5 mx-0 mx-lg-auto">
@@ -49,8 +50,9 @@ export default function  Menu(props) {
                   {
                     db.Tabs.btstiltle.map((v,i)=>{
                       return(
-                        <a href="#">{v.btsspan}</a>
-                      )
+                        <a href='#'>{v.btsspan}</a>
+                      )   
+
                     })
                   }
                   </span>
@@ -61,7 +63,7 @@ export default function  Menu(props) {
                   db.Tabs.Menu.map((v,i)=>{
                     return(
                       <li className="col-md-4">
-                  <div>
+                  <div id='mepick'>
                     <a href={v.Mhref} className='d-block position-relative'>
                       <img src={v.Mpic} className="img-fluid pt-2" alt={v.Malt} />
                       <span className="view"><storng className="px-2">{v.Mstorng}</storng><em>{v.Mem}</em></span>
