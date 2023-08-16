@@ -37,9 +37,6 @@ import React,{ useState } from 'react'
                             })
                         }
                     </ul>
-                    <form action="">
-
-                    </form>
                 
                 </div> 
             </form>

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -31,10 +32,6 @@ ul {
 
 .fw100 {
   font-weight: 100 !important;
-}
-
-.fw500 {
-  font-weight: 500 !important;
 }
 
 .fw600 {
@@ -241,14 +238,20 @@ section #menulist > li {
   }
 }
 #use #use2 .container:before {
-  content: "";
+  content: "만족스러운 고객들과 함께한 2년 이상의 세월";
   background-image: url(../img/decoback2.png);
   position: absolute;
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: center;
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
+  margin-left: 900px;
+  margin-top: 60px;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 100px 50px;
 }
 #use #usede img {
   width: 90px;
@@ -272,16 +275,6 @@ section #menulist > li {
   display: block;
   margin: 0 auto;
   height: 80px;
-}
-#use #reviewtext > p {
-  font-size: 20px;
-}
-#use #reviewtext .sc1 {
-  transform: translate(30px, -74px);
-}
-#use #reviewtext .review2 {
-  height: 45px;
-  transform: rotate(-39deg);
 }
 
 #use2 .swiper {
@@ -443,27 +436,24 @@ section .setbtn a:hover {
 }
 
 #ft {
+  font-family: "SUITE";
+  font-weight: 500;
   background-color: #F9FCF3;
 }
 #ft img {
   height: 30px;
 }
-
-footer * {
-  font-family: "SUITE";
-  font-weight: 500;
-}
-footer li {
+#ft li {
   font-weight: 600;
 }
-footer li > a {
+#ft li > a {
   font-size: 20px;
   font-weight: 600;
   color: black;
 }
-footer li > a:hover {
+#ft li > a:hover {
   color: #7FAC34;
 }
-footer li > span {
+#ft li > span {
   padding: 0 10px 0 0;
 }/*# sourceMappingURL=kgr.css.map */

@@ -8,14 +8,14 @@ export default function  Menu(props) {
         <>
         <section id={props.useid} className="pt-3 pt-lg-5 mx-0 mx-lg-auto">
           <div className="pt-3 container ">
-            <h2 id="menu" className='mb-5 ps-md-5'><img src={process.env.PUBLIC_URL+db.youtube.Ytitle} alt={db.youtube.Yalt} className="mb-4 img-fluid" /></h2>
+            <h2 id="menu" className='mb-5 ps-5'><img src={process.env.PUBLIC_URL+db.youtube.Ytitle} alt={db.youtube.Yalt} className="mb-4 img-fluid" /></h2>
             <div className="d-lg-flex jusitfy-content-between align-items-center mb-5">
-                <div className="col-lg-7  youtubebox ps-md-5">
+                <div className="col-lg-7  youtubebox ps-md-5 ps-5">
                   <div className="position-relative overflow-hidden">
                   <iframe width="100%" className="position-absolute" src={`https://www.youtube.com/embed/${db.youtube.vlink}`} ></iframe>
                 </div>
               </div>                    
-            <div className="text-center  col ps-lg-5 pe-lg-0 text-lg-start  py-md-5" id='metitle'>
+            <div className="text-center  col ps-lg-5 pe-lg-0 text-lg-start  py-5" id='metitle'>
                 <h3 className='mb-4'>{db.youtube.maintitle}<span className="d-block">{db.youtube.subtitle}</span></h3>
                 <ul id="menulist" className="pb-3">
                   {
@@ -62,7 +62,7 @@ export default function  Menu(props) {
 
                   db.Tabs.Menu.map((v,i)=>{
                     return(
-                      <li className="col-md-4">
+                      <li className="col-md-4 col-4">
                   <div id='mepick'>
                     <a href={v.Mhref} className='d-block position-relative'>
                       <img src={v.Mpic} className="img-fluid pt-2" alt={v.Malt} />
