@@ -14,11 +14,6 @@ export default function Ft(props) {
                                     <li className="px-lg-3 py-lg-0 py-2"><span>사업자 등록번호</span>831-81-02134</li>
                                     <li className="px-lg-3 py-lg-0 py-2"><span>대표</span>유미정</li>                                
                                 </ul>
-                                {/* <ul className="d-flex">
-                                    <li className="px-2"><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/sns_insta.png`} alt="인스타그램"/></a></li>
-                                    <li className="px-2"><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/sns_you.png`} alt="유튜브"/></a></li>
-                                    <li className="px-2"><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/sns_fb.png`} alt="페이스북"/></a></li>
-                                </ul> */}
                             </div>
                             <ul className="d-flex d-lg-none mb-0">
                                 <li><a href="#none">고객문의</a></li>
