@@ -467,13 +467,23 @@ section .setbtn a:hover {
   bottom: 110px;
   right: 14px;
   width: 213px;
-  z-index: 9999;
+  z-index: 1000;
 }
-#ft #quickmenu img {
+#ft #quickmenu #qiuck-lg img {
   width: 100%;
 }
 @media screen and (max-width: 768px) {
-  #ft #quickmenu #qiuck-md {
+  #ft #quickmenu #qiuck-lg {
     display: none;
   }
+}
+#ft #quickmenu_m {
+  position: fixed;
+  bottom: 110px;
+  right: -135px;
+  width: 213px;
+  z-index: 1000;
+}
+#ft #quickmenu_m #qiuck-md img {
+  height: 70px;
 }/*# sourceMappingURL=kgr.css.map */
