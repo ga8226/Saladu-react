@@ -65,10 +65,10 @@ export default function  Menu(props) {
                       <li className="col-md-4 col-4">
                   <div id='mepick'>
                     <a href={v.Mhref} className='d-block position-relative'>
-                      <img src={v.Mpic} className="img-fluid pt-2" alt={v.Malt} />
-                      <span className="view"><storng className="px-2">{v.Mstorng}</storng><em>{v.Mem}</em></span>
+                      <img src={v.Mpic} className="img-fluid pt-md-2 pt-2" alt={v.Malt} />
+                      <span className="view"><storng className="px-md-2 px-1">{v.Mstorng}</storng><em>{v.Mem}</em></span>
                     </a>
-                    <div id="explain"><p className='pt-2'>{v.Mdeco}<span className='px-2'>{v.Mnm}</span></p><strong>{v.Msale}</strong><span className='ps-3 nonsale'>{v.Mnone}</span></div> 
+                    <div id="explain"><p className='pt-md-2 pt-1'>{v.Mdeco}<span className='px-md-2 px-1'>{v.Mnm}</span></p><strong>{v.Msale}</strong><span className='ps-3 nonsale'>{v.Mnone}</span></div> 
                   </div> 
                   </li>
                     )

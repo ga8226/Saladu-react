@@ -10,12 +10,12 @@ export default function Use(props) {
                 <div className="pt-3" id="use1">
                      <div className='pt-5 container mx-auto'>
                             <h2 className='mb-5 center'>💚 이용방법 💚</h2>
-                            <div className="jusitfy-content-between align-items-center pt-lg-4 pt-md-3">
+                            <div className="jusitfy-content-between align-items-center pt-lg-4 pt-3">
                                 <ul className="d-lg-flex mb-4">
                                  {
                                      db.Use.explain.map((v,i)=>{
                                            return(
-                                             <li className='col-lg-4 col-12 px-4  py-md-3 py-lg-0 center' id="usede">
+                                             <li className='col-lg-4 col-12 px-4  py-3 py-lg-0 center' id="usede">
                                                  <div className='center'><img src={v.useicon} alt=""  className='img-fluid'/></div>
                                                    <div className='py-4'>
                                                    <strong>{v.usenum}</strong>

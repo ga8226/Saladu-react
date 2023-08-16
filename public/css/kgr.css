@@ -66,6 +66,11 @@ header li a {
 header li a:hover {
   color: #7FAC34 !important;
 }
+@media screen and (max-width: 768px) {
+  header li:first-child {
+    display: none;
+  }
+}
 header #event {
   background-color: #7FAC34;
   font-size: 15px;
@@ -440,7 +445,7 @@ section .setbtn a:hover {
   font-weight: 500;
   background-color: #F9FCF3;
 }
-#ft img {
+#ft #ft1 img {
   height: 30px;
 }
 #ft li {
@@ -456,4 +461,19 @@ section .setbtn a:hover {
 }
 #ft li > span {
   padding: 0 10px 0 0;
+}
+#ft #quickmenu {
+  position: fixed;
+  bottom: 110px;
+  right: 14px;
+  width: 213px;
+  z-index: 9999;
+}
+#ft #quickmenu img {
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  #ft #quickmenu #qiuck-md {
+    display: none;
+  }
 }/*# sourceMappingURL=kgr.css.map */

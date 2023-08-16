@@ -60,6 +60,14 @@ header{
         }
     }
    }
+ 
+    @media screen and (max-width: 768px) {
+        li:first-child {
+            display: none;
+    } 
+        }
+   
+ 
   
     #event{
         background-color: #7FAC34;
@@ -466,15 +474,15 @@ font-weight: 300;
 
  #ft{
     font-family: 'SUITE';
-      font-weight: 500;
+    font-weight: 500;
     background-color: #F9FCF3;
-    img{
-        height: 30px;
+   
+    #ft1{
+        img{
+            height: 30px;
+        }
     }
 
-
-
-    
    li{
     font-weight: 600;
     >a{
@@ -489,6 +497,22 @@ font-weight: 300;
         padding: 0 10px 0 0;
     }      
    }
-  
+   #quickmenu{
+    position: fixed;
+    bottom: 110px;
+    right: 14px;
+    width: 213px;
+    z-index: 9999;
+    img {
+        width: 100%; 
+    }
+    @media screen and (max-width: 768px) {
+        #qiuck-md {
+            display: none;
+    } 
+        }
+
+   }
+ 
 
 }

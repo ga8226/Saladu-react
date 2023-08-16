@@ -30,7 +30,7 @@ export default function Hd(props) {
                 </div>
              }
         <Navbar className="d-flex justify-content-between align-items-center mx-lg-5 mx-3" expand="md">
-       <Navbar.Brand as="h1" className="mb-0 me-0  me-md-4 ">
+       <Navbar.Brand as="h1" className="mb-0 me-md-0  me-4 ">
                         <a href="#top" className="d-block"><img src={`${process.env.PUBLIC_URL}/img/logo.svg`} alt="" /></a>
        </Navbar.Brand>
                
@@ -41,7 +41,7 @@ export default function Hd(props) {
           {
                         props.usedb.navi.map(( val, idx) => {
                                 return(
-                                    <li className={val.cls}  key={idx}>  
+                                    <li className={`px-md-0 px-3 ${val.cls}`}  key={idx}>  
                                         <Nav.Link href={"#"+val.href}>{val.nm}</Nav.Link>          
                                     </li>
                                     
