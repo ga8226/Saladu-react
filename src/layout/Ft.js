@@ -14,11 +14,11 @@ export default function Ft(props) {
                                     <li className="px-lg-3 py-lg-0 py-2"><span>사업자 등록번호</span>831-81-02134</li>
                                     <li className="px-lg-3 py-lg-0 py-2"><span>대표</span>유미정</li>                                
                                 </ul>
-                                <ul className="d-flex">
+                                {/* <ul className="d-flex">
                                     <li className="px-2"><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/sns_insta.png`} alt="인스타그램"/></a></li>
                                     <li className="px-2"><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/sns_you.png`} alt="유튜브"/></a></li>
                                     <li className="px-2"><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/sns_fb.png`} alt="페이스북"/></a></li>
-                                </ul>
+                                </ul> */}
                             </div>
                             <ul className="d-flex d-lg-none mb-0">
                                 <li><a href="#none">고객문의</a></li>
@@ -31,13 +31,15 @@ export default function Ft(props) {
                         </div>
                     </div>
                     <div id="quickmenu">
-                        <ul>
+                        <ul id="qiuck-lg">
                             <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_1.png`} alt="lg 가맹문의" /></a></li>
                             <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_2.png`} alt="lg 가맹설명회" /></a></li>
                         </ul>
-                        <ul id="qiuck-md">
-                            <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_ico01.png`} alt="md 가맹문의" /></a></li>
-                            <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_ico02.png`} alt="md 가맹설명회" /></a></li>
+                    </div>
+                    <div id="quickmenu_m">
+                        <ul id="qiuck-md" className="d-md-none">
+                                <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_ico01.png`} alt="md 가맹문의" /></a></li>
+                                <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_ico02.png`} alt="md 가맹설명회" /></a></li>
                         </ul>
                     </div>
                 </div>

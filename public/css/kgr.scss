@@ -497,22 +497,41 @@ font-weight: 300;
         padding: 0 10px 0 0;
     }      
    }
+
    #quickmenu{
     position: fixed;
     bottom: 110px;
     right: 14px;
     width: 213px;
-    z-index: 9999;
-    img {
+    z-index: 1000;
+    #qiuck-lg img {
         width: 100%; 
     }
+
     @media screen and (max-width: 768px) {
-        #qiuck-md {
+        #qiuck-lg {
             display: none;
     } 
         }
-
    }
+   #quickmenu_m{
+    position: fixed;
+    bottom: 110px;
+    right: -135px;
+    width: 213px;
+    z-index: 1000;
+
+    #qiuck-md{
+         img {
+        height: 70px;
+         }
+       
+    }
+
+
+}   
+ 
  
 
 }
+
