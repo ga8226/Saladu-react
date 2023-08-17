@@ -37,11 +37,11 @@ export default function Hd(props) {
         <Navbar.Toggle aria-controls="navbar-nav"/>
         <Navbar.Collapse id="navbar-nav">
        
-          <Scrollspy id="navbar-nav" className="navbar-nav" items={[ props.usedb.navi[0].href, props.usedb.navi[1].href, props.usedb.navi[2].href,props.usedb.navi[3].href]} currentClassName="active">
+          <Scrollspy id="navbar-nav" className="navbar-nav px-md-2" items={[ props.usedb.navi[0].href, props.usedb.navi[1].href, props.usedb.navi[2].href,props.usedb.navi[3].href]} currentClassName="active">
           {
                         props.usedb.navi.map(( val, idx) => {
                                 return(
-                                    <li className={`px-md-0 px-3 ${val.cls}`}  key={idx}>  
+                                    <li className={`${val.cls}`}  key={idx}>  
                                         <Nav.Link href={"#"+val.href}>{val.nm}</Nav.Link>          
                                     </li>
                                     
