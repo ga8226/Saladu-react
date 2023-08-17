@@ -2,9 +2,14 @@ import db from '../data/db.json';
 import React,{ useState , useEffect } from 'react';
 import Aos from 'aos';
 export default function  Menu(props) { 
-  useEffect(() => {
-    Aos.init();
-  }, [])
+    useEffect(() => {
+      Aos.init();
+    }, [])
+    const [dbTabsMenu, setdbTabsMenu2 ] = useState(0);
+    // const [dbTabsbtstiltle, setdbTabsbtstiltle2 ] = useState();
+        
+    
+   
     return (
       
   
@@ -37,12 +42,12 @@ export default function  Menu(props) {
                 <div className='pb-4'>
                   <div className='pb-5'>
                       <div id='metab'>
-                          <ul className='d-flex'>
+                          <ul className='d-flex tablist'>
                           {
-                            db.Tabs.btstiltle.map((v,i)=>{
+                            db.Tab.map((v,i)=>{
                               return(
                                 <li className='px-3'>
-                                  <button>{v.bt}</button>
+                                  <button onClick={()=>{ setdbTabsMenu2(i) }}>{v.btstiltle.bt}</button>
                                 </li>
                               )
                             })
@@ -50,23 +55,23 @@ export default function  Menu(props) {
                         </ul>
                       </div>
                     <span id='deco'>
-                      {
-                        db.Tabs.btstiltle.map((v,i)=>{
-                          return(
-                            <a href='#'>{v.btsspan}</a>
-                          )   
+                     
+                        
+                          
+                            <strong>{db.Tab[dbTabsMenu].btstiltle.btsspan}</strong>
+                        
 
-                        })
-                      }
+                      
+                     
                       </span>
                   </div>     
                   <ul className="row">
                     {
 
-                      db.Tabs.Menu.map((v,i)=>{
+                      db.Tab[dbTabsMenu].menulist.map((v,i)=>{
                         return(
                           <li className="col-md-4 col-4">
-                      <div id='mepick'>
+                      <div id='mepick' >
                         <a href={v.Mhref} className='d-block position-relative'>
                           <img src={v.Mpic} className="img-fluid pt-md-2 pt-2" alt={v.Malt} />
                           <span className="view"><storng className="px-md-2 px-1">{v.Mstorng}</storng><em>{v.Mem}</em></span>
