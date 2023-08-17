@@ -1,10 +1,9 @@
-import db from '../data/db.json'
-import React,{ useState } from 'react'
+import db from '../data/db.json';
+import React,{ useState , useEffect } from 'react';
 import Aos from 'aos';
-import React,{useEffect} from "react";
 export default function  Menu(props) { 
   useEffect(() => {
-    AOS.init();
+    Aos.init();
   }, [])
     return (
       
@@ -70,9 +69,9 @@ export default function  Menu(props) {
                       <div id='mepick'>
                         <a href={v.Mhref} className='d-block position-relative'>
                           <img src={v.Mpic} className="img-fluid pt-md-2 pt-2" alt={v.Malt} />
-                          <span className="view"  data-aos="fade-up"><storng className="px-md-2 px-1">{v.Mstorng}</storng><em>{v.Mem}</em></span>
+                          <span className="view"><storng className="px-md-2 px-1">{v.Mstorng}</storng><em>{v.Mem}</em></span>
                         </a>
-                        <div id="explain"><p className='pt-md-2 pt-1'>{v.Mdeco}<span className='px-md-2 px-1'>{v.Mnm}</span></p><strong>{v.Msale}</strong><span className='ps-3 nonsale'>{v.Mnone}</span></div> 
+                        <div id="explain"><p className='pt-md-2 pt-1'>{v.Mdeco}<span className='px-md-2 px-1'>{v.Mnm}</span></p><strong>{v.Msale}</strong><span data-aos="zoom-in-down" className='ps-3 nonsale'>{v.Mnone}</span></div> 
                       </div> 
                       </li>
                         )
