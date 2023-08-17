@@ -40,7 +40,7 @@ export default function  Menu(props) {
               </div>
               <div>
                 <div className='pb-4'>
-                  <div className='pb-5'>
+                  <div className='pb-4'>
                       <div id='metab'>
                           <ul className='d-flex tablist'>
                           {
@@ -54,15 +54,8 @@ export default function  Menu(props) {
                           }
                         </ul>
                       </div>
-                    <span id='deco'>
-                     
-                        
-                          
-                            <strong>{db.Tab[dbTabsMenu].btstiltle.btsspan}</strong>
-                        
-
-                      
-                     
+                    <span id='deco'>                                                                
+                            <strong>{db.Tab[dbTabsMenu].btstiltle.btsspan}</strong>                        
                       </span>
                   </div>     
                   <ul className="row">
