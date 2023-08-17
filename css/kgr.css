@@ -129,11 +129,15 @@ section #menulist > li {
   font-size: 22px;
 }
 
-.navbar-expand .navbar-nav {
+#navbar-nav ul {
   width: 100%;
-  align-items: center;
 }
 
+@media (min-width: 768px) and (max-width: 1920px) {
+  #navbar-nav ul {
+    align-items: center;
+  }
+}
 #mainBanner .swiper-pagination-bullet {
   width: 13px;
   height: 13px;
@@ -222,6 +226,7 @@ section #menulist > li {
   color: #888;
   font-size: 16px;
   font-weight: 200;
+  text-decoration: line-through;
 }
 
 #use #use1 {
