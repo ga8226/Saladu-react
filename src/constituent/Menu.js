@@ -71,7 +71,7 @@ export default function  Menu(props) {
                           <img src={v.Mpic} className="img-fluid pt-md-2 pt-2" alt={v.Malt} />
                           <span className="view"><storng className="px-md-2 px-1">{v.Mstorng}</storng><em>{v.Mem}</em></span>
                         </a>
-                        <div id="explain"><p className='pt-md-2 pt-1'>{v.Mdeco}<span className='px-md-2 px-1'>{v.Mnm}</span></p><strong>{v.Msale}</strong><span data-aos="zoom-in-down" className='ps-3 nonsale'>{v.Mnone}</span></div> 
+                        <div id="explain"><p className='pt-md-2 pt-1'>{v.Mdeco}<span className='px-md-2 px-1'>{v.Mnm}</span></p><span  className='nonsale'>{v.Mnone}</span><strong data-aos="zoom-in-down" data-aos-once="false" className='ps-3'>{v.Msale}</strong></div> 
                       </div> 
                       </li>
                         )

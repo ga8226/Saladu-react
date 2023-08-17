@@ -226,6 +226,7 @@ section #menulist > li {
   color: #888;
   font-size: 16px;
   font-weight: 200;
+  text-decoration: line-through;
 }
 
 #use #use1 {
