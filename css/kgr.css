@@ -178,7 +178,7 @@ section #menulist > li {
   top: 0;
 }
 
-#deco a {
+#deco strong {
   font-size: 20px;
   color: #212529;
 }
