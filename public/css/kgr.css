@@ -368,14 +368,34 @@ section .setbtn > a {
 section .setbtn a:hover {
   color: indianred;
 }
-
-#setup {
+@media (max-width: 768px) {
+  section section #ST {
+    font-size: 26px;
+  }
+  section section #Sst {
+    width: 80%;
+    font-size: 16px;
+    margin: 10px 6px;
+  }
+  section section .setbtn {
+    width: 50%;
+    padding: 10px 0;
+  }
+  section section .setbtn a:hover {
+    color: indianred;
+  }
+  section #setup {
+    background-position: center;
+    background-size: cover;
+  }
+}
+section #setup {
   background-image: url(../img/ftimg.jpg);
   background-repeat: no-repeat;
   background-position: right -300px;
   background-size: 100%;
 }
-#setup:before {
+section #setup:before {
   content: "";
   position: absolute;
   left: 0;

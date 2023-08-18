@@ -364,19 +364,19 @@ font-weight: 300;
 //  use css 끝
 
  section{  
-            #ST{
+     #ST{
                 font-size:  46px;
                 line-height: 2;
             
-            }
+        }
 
-        #Sst{
+     #Sst{
                 width: 60%;
                 font-size: 20px;
                 line-height: 2;
                 margin: 15px 6px;
-            }
-            .setbtn{
+            } 
+     .setbtn{
                 width: 30%;
                 padding: 12px 0;
                 border: solid 2px #7FAC34;
@@ -386,29 +386,56 @@ font-weight: 300;
                     color: #7FAC34;
                 }  
             }
-            .setbtn a:hover{
+        .setbtn a:hover{
                 color: indianred;
             } 
+
+     @media (max-width: 768px) {
+                section {
+                    #ST {
+                        font-size: 26px; 
+                    }
+            
+                    #Sst {
+                        width: 80%;
+                        font-size: 16px; 
+                        margin: 10px 6px; 
+                    }
+            
+                    .setbtn {
+                        width: 50%;
+                        padding: 10px 0; 
+                    }
+            
+                    .setbtn a:hover {
+                        color: indianred;
+                    }
+                }
+            
+                #setup {
+                    background-position: center; 
+                    background-size: cover; 
+            
+                }
+          }
+            #setup{
+                background-image: url(../img/ftimg.jpg);
+                background-repeat:  no-repeat;
+                background-position: right -300px;
+                background-size: 100% ;
+        
+        
+                &:before{
+                    content: "";
+                    position: absolute;
+                    left:0; right:0; top:0; bottom:0;
+                    background: rgb(255,255,255);
+                    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.006039915966386533) 56%);
+                }
+        
+         }
   }
        
-       
-
- #setup{
-        background-image: url(../img/ftimg.jpg);
-        background-repeat:  no-repeat;
-        background-position: right -300px;
-        background-size: 100% ;
-
-
-        &:before{
-            content: "";
-            position: absolute;
-            left:0; right:0; top:0; bottom:0;
-            background: rgb(255,255,255);
-            background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.006039915966386533) 56%);
-        }
- }
-
  //setup css 끝
 
 #form{
