@@ -362,87 +362,7 @@ font-weight: 300;
 
 //  use css 끝
 
- section{  
-     #ST{
-                font-size:  46px;
-                line-height: 2;
-            
-        }
-
-     #Sst{
-                width: 60%;
-                font-size: 20px;
-                line-height: 2;
-                margin: 15px 6px;
-            } 
-     .setbtn{
-                width: 30%;
-                padding: 12px 0;
-                border: solid 2px #7FAC34;
-                background-color: white;
-                border-radius: 6px;
-                >a{
-                    color: #7FAC34;
-                }  
-            }
-        .setbtn a:hover{
-                color: indianred;
-            } 
-
-    
-            #setup{
-                background-image: url(../img/ftimg.jpg);
-                background-repeat:  no-repeat;
-                background-position: right -350px;
-                background-size: 100% ;
-
-        
-        
-                &:before{
-                    content: "";
-                    position: absolute;
-                    left:0; right:0; top:0; bottom:0;
-                    background: rgb(255,255,255);
-                    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.006039915966386533) 56%);
-                }
-        
-         }
-
-        @media (min-width: 200px) and (max-width: 1024px) {
-            & {
-                #ST {
-                    font-size: 26px; 
-                }
-        
-                #Sst {
-                    width: 80%;
-                    font-size: 16px; 
-                    margin: 10px 6px; 
-                }
-        
-                .setbtn {
-                    width: 50%;
-                    padding: 10px 0; 
-                }
-        
-                .setbtn a:hover {
-                    color: indianred;
-                }
-            }
-        
-            #setup {
-                background-position: center; 
-                background-size: cover; 
-        
-            }
-        }  
-        
-  }
-
-       
- //setup css 끝
-
-#form{
+#Q{
         h2{
             font-weight: 600 !important;
             margin-bottom: 45px;
@@ -510,7 +430,83 @@ font-weight: 300;
         }
 }
 
-// form css 끝
+// Q css 끝
+
+#form{  
+    background-image: url(../img/ftimg.jpg);
+                background-repeat:  no-repeat;
+                background-position: right -350px;
+                background-size: 100% ;
+
+        
+        
+    &:before{
+        content: "";
+        position: absolute;
+        left:0; right:0; top:0; bottom:0;
+        background: rgb(255,255,255);
+        background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.006039915966386533) 56%);
+    }
+    #ST{
+                font-size:  46px;
+                line-height: 2;
+            
+        }
+    #Sst{
+                width: 60%;
+                font-size: 20px;
+                line-height: 2;
+                margin: 15px 6px;
+            } 
+    .setbtn{
+            width: 30%;
+            padding: 12px 0;
+            border: solid 2px #7FAC34;
+            background-color: white;
+            border-radius: 6px;
+            >a{
+                color: #7FAC34;
+                &:hover{
+                    color: indianred;
+                }
+            }      
+    }
+
+    
+
+    @media (min-width: 200px) and (max-width: 1024px) {
+        & {
+            background-position: center; 
+            background-size: cover; 
+    
+            #ST {
+                font-size: 26px; 
+            }
+    
+            #Sst {
+                width: 80%;
+                font-size: 16px; 
+                margin: 10px 6px; 
+            }
+    
+            .setbtn {
+                width: 50%;
+                padding: 10px 0; 
+                a:hover {
+                    color: indianred;
+                }
+            }
+    
+            
+        }
+    
+        
+    }  
+        
+}
+
+      
+ //form css 끝
 
  #ft{
     font-family: 'SUITE';
