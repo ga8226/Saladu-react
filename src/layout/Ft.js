@@ -27,14 +27,14 @@ export default function Ft(props) {
                     </div>
                     <div id="quickmenu">
                         <ul id="qiuck-lg">
-                            <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_1.png`} alt="lg 가맹문의" /></a></li>
-                            <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_2.png`} alt="lg 가맹설명회" /></a></li>
+                            <li><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/quick_1.png`} alt="lg 가맹문의" /></a></li>
+                            <li><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/quick_2.png`} alt="lg 가맹설명회" /></a></li>
                         </ul>
                     </div>
                     <div id="quickmenu_m">
                         <ul id="qiuck-md" className="d-md-none">
-                                <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_ico01.png`} alt="md 가맹문의" /></a></li>
-                                <li><a href=""><img src={`${process.env.PUBLIC_URL}/img/quick_ico02.png`} alt="md 가맹설명회" /></a></li>
+                                <li><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/quick_ico01.png`} alt="md 가맹문의" /></a></li>
+                                <li><a href="#none"><img src={`${process.env.PUBLIC_URL}/img/quick_ico02.png`} alt="md 가맹설명회" /></a></li>
                         </ul>
                     </div>
                 </div>
