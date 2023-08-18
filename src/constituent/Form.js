@@ -14,7 +14,7 @@ import React,{ useState } from 'react'
     return (
         <>
             <form id={props.useid} className='py-5'>
-                <div className="py-5 container my-5">
+                <div className="py-lg-5 py-4 container my-lg-5 my-3">
                     
                         <h2 className="center">{db.Form.Ftitle}</h2>
                    
