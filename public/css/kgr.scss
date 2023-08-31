@@ -434,8 +434,6 @@ font-weight: 300;
 
 #form{
 
- 
-
  .email input{
     width: 70%;
     border-radius: 5px;
@@ -443,9 +441,37 @@ font-weight: 300;
     color: #222;
     font-size: 14px;
  } 
-  
+
+ #emailsection {
+    .show {
+        display: none;
+    }
+
+    &.act {
+        .email-select {
+            margin-right: 5px;
+        }
+
+        .show {
+            display: block;
+        }
+    }
+}
+select{
+    width: 25%;
+}
+.kakao:after{
+    content: "";
+    background-image: url(../img/kakao_icon.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: block;
+    width: 50px;
+    height: 50px;
 }
 
+}
 
 
 

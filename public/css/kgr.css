@@ -410,6 +410,28 @@ section #menulist > li {
   color: #222;
   font-size: 14px;
 }
+#form #emailsection .show {
+  display: none;
+}
+#form #emailsection.act .email-select {
+  margin-right: 5px;
+}
+#form #emailsection.act .show {
+  display: block;
+}
+#form select {
+  width: 25%;
+}
+#form .kakao:after {
+  content: "";
+  background-image: url(../img/kakao_icon.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: block;
+  width: 50px;
+  height: 50px;
+}
 
 #ft {
   font-family: "SUITE";
