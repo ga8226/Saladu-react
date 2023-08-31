@@ -433,23 +433,21 @@ font-weight: 300;
 // Q css 끝
 
 #form{
-    .frdeco{
-        padding: 5px;
-        border: 2px solid black;
 
-    }
-    input{width: 25%;}
-    .emailact{
-        display: none;
-    }
-    &act{
-        .emailact{
-            display: block;
-        }
-    }
+ 
 
-
+ .email input{
+    width: 70%;
+    border-radius: 5px;
+    background: #eee;
+    color: #222;
+    font-size: 14px;
+ } 
+  
 }
+
+
+
 
       
  //form css 끝

@@ -403,18 +403,12 @@ section #menulist > li {
   transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
 }
 
-#form .frdeco {
-  padding: 5px;
-  border: 2px solid black;
-}
-#form input {
-  width: 25%;
-}
-#form .emailact {
-  display: none;
-}
-#formact .emailact {
-  display: block;
+#form .email input {
+  width: 70%;
+  border-radius: 5px;
+  background: #eee;
+  color: #222;
+  font-size: 14px;
 }
 
 #ft {

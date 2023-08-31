@@ -1,8 +1,9 @@
 {
-  "name": "apptest_kgr_0627",
+  "name": "saladu",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@material-ui/core": "^4.12.4",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
@@ -13,8 +14,10 @@
     "react-bootstrap": "^2.8.0",
     "react-dom": "^18.2.0",
     "react-hook-form": "^7.45.4",
+    "react-native": "^0.72.4",
     "react-scripts": "5.0.1",
     "react-scrollspy": "^3.4.3",
+    "react-select": "^5.7.4",
     "sass": "^1.63.6",
     "swiper": "^9.4.1",
     "web-vitals": "^2.1.4"

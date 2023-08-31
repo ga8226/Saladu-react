@@ -20,7 +20,7 @@ export default function  Menu(props) {
                 <div className="d-lg-flex jusitfy-content-between align-items-center mb-5">
                     <div className="col-lg-7  youtubebox ps-md-5 ps-5">
                         <div className="position-relative overflow-hidden">
-                        <iframe width="100%" className="position-absolute" src={`https://www.youtube.com/embed/${db.youtube.vlink}`} ></iframe>
+                        <iframe width="100%" className="position-absolute" src={`https://www.youtube.com/embed/${db.youtube.vlink}`} title="youtube"></iframe>
                         </div>
                   </div>                    
                   <div className="text-center  col ps-lg-5 pe-lg-0 text-lg-start  py-5" id='metitle'>
