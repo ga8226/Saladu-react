@@ -16,7 +16,7 @@ import React,{ useState } from 'react'
             <section id={props.useid} className='py-5'>
                 <div className="py-lg-5 py-4 container my-lg-5 my-3">
                     
-                        <h2 className="center">{db.Q.Qtitle}</h2>
+                        <h2 className="center">💫 {db.Q.Qtitle} 💫</h2>
                    
                     <ul className='col-md-10 mx-auto' id='qna'>
                         {
