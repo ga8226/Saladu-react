@@ -29,7 +29,7 @@ export default function  Menu(props) {
                         {
                           db.youtube.adlist.map((v,i)=>{
                             return(
-                              <li className="py-3"><span className="ift pe-3">{v.adspan}</span>{v.listext}</li> 
+                              <li className="py-3"><span className="ift pe-3">💪</span>{v.listext}</li> 
                               )
                           })
                           

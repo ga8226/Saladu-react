@@ -32,8 +32,9 @@ export default function Form(props) {
                             </div>
                         </div>
                         <div className="col-12 col-md-6 kakao">
+                            <a href="http://pf.kakao.com/_xjflLxj/chat" target="_blank">
                             <h5 className="text-center">카카오톡으로 알림받기 📣</h5>
-                            <a href="http://pf.kakao.com/_xjflLxj/chat" target="_blank"></a>
+                            </a>
                         </div>
                     </div>
                     <div className="submit text-center">
