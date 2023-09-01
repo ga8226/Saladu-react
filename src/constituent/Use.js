@@ -26,7 +26,7 @@ export default function Use(props) {
                                      })   
                                   }
                                 </ul>
-                                 <p className='center pt-4 f19'>{db.Use.useFT}</p>
+                                 <p className='center pt-4 f19'><span>🌿</span> {db.Use.useFT} <span>🌿</span></p>
                              </div>                    
                         </div>
                        
