@@ -443,6 +443,20 @@ font-weight: 300;
 // Q css 끝
 
 #form{
+    background-image: url(../img/ftimg.jpg);
+    background-repeat:  no-repeat;
+    background-position: right -510px;
+    background-size: 100% ;
+
+
+
+    &:before{
+    content: "";
+    position: absolute;
+    left:0; right:0; top:0; bottom:0;
+    background: rgb(255,255,255);
+    background: linear-gradient(90deg, rgba(255,255,255,1) 0%, rgba(255,255,255,1) 40%, rgba(255,255,255,0.006039915966386533) 56%);
+}
  .email input{
     width: 70%;
     border-radius: 5px;
@@ -468,12 +482,12 @@ font-weight: 300;
         }
 
         .show {
-            display: block;
+            display: inline-block;
         }
     }
 }
 select{
-    width: 25%;
+    width: 15%;
 }
 .kakao:after{
     content: "";
@@ -484,9 +498,11 @@ select{
     display: block;
     width: 50px;
     height: 50px;
-    transform: translate(450px, 10px);
+    transform: translate(50px, -125px);
 }
-
+.submit{
+    padding-top: 60px;
+}
 
 
 

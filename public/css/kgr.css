@@ -416,6 +416,22 @@ section #deco {
   transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
 }
 
+#form {
+  background-image: url(../img/ftimg.jpg);
+  background-repeat: no-repeat;
+  background-position: right -510px;
+  background-size: 100%;
+}
+#form:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  background: linear-gradient(90deg, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 40%, rgba(255, 255, 255, 0.006039916) 56%);
+}
 #form .email input {
   width: 70%;
   border-radius: 5px;
@@ -436,10 +452,10 @@ section #deco {
   margin-right: 5px;
 }
 #form #emailsection.act .show {
-  display: block;
+  display: inline-block;
 }
 #form select {
-  width: 25%;
+  width: 15%;
 }
 #form .kakao:after {
   content: "";
@@ -450,7 +466,10 @@ section #deco {
   display: block;
   width: 50px;
   height: 50px;
-  transform: translate(450px, 10px);
+  transform: translate(50px, -125px);
+}
+#form .submit {
+  padding-top: 60px;
 }
 
 #ft {
