@@ -24,7 +24,7 @@ export default function  Menu(props) {
                         </div>
                   </div>                    
                   <div className="text-center  col ps-lg-5 pe-lg-0 text-lg-start  py-5" id='metitle'>
-                      <h3 className='mb-4'>{db.youtube.maintitle}<span className="d-block">{db.youtube.subtitle}</span></h3>
+                  <h3 className='mb-4'>{db.youtube.maintitle} 🔥<span className="d-block">{db.youtube.subtitle}</span></h3>
                       <ul id="menulist" className="pb-3">
                         {
                           db.youtube.adlist.map((v,i)=>{
