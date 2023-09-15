@@ -249,6 +249,16 @@ font-weight: 300;
     font-weight: 200;
     text-decoration: line-through;
  }
+ section #deco {
+    display: block;
+    text-align: center;
+}
+.tablist button.icon0:before {
+    content: "🔥";
+}
+.tablist button.icon1:before {
+    content: "🥗";
+}
 
 //  menu css 끝
     

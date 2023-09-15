@@ -229,6 +229,19 @@ section #menulist > li {
   text-decoration: line-through;
 }
 
+section #deco {
+  display: block;
+  text-align: center;
+}
+
+.tablist button.icon0:before {
+  content: "🔥";
+}
+
+.tablist button.icon1:before {
+  content: "🥗";
+}
+
 #use #use1 {
   background-color: #f8f8f8;
   padding: 100px 0;

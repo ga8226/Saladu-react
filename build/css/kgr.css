@@ -229,6 +229,11 @@ section #menulist > li {
   text-decoration: line-through;
 }
 
+section #deco {
+  display: block;
+  text-align: center;
+}
+
 #use #use1 {
   background-color: #f8f8f8;
   padding: 100px 0;
