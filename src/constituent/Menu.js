@@ -1,18 +1,16 @@
 import db from '../data/db.json';
 import React,{ useState , useEffect } from 'react';
 import Aos from 'aos';
+
 export default function  Menu(props) { 
     useEffect(() => {
       Aos.init();
     }, [])
     const [dbTabsMenu, setdbTabsMenu2 ] = useState(0);
+
   
-        
-    
    
     return (
-      
-  
         <>
         <section id={props.useid} className="pt-3 pt-lg-5 mx-0 mx-lg-auto">
               <div className="pt-3 container ">
@@ -20,11 +18,11 @@ export default function  Menu(props) {
                 <div className="d-lg-flex jusitfy-content-between align-items-center mb-5">
                     <div className="col-lg-7  youtubebox ps-md-5 ps-5">
                         <div className="position-relative overflow-hidden">
-                        <iframe width="100%" className="position-absolute" src={`https://www.youtube.com/embed/${db.youtube.vlink}`} title="youtube"></iframe>
+                        <iframe width="100%" className="position-absolute" src={`https://www.youtube.com/embed/${db.youtube.vlink}`} ></iframe>
                         </div>
                   </div>                    
                   <div className="text-center  col ps-lg-5 pe-lg-0 text-lg-start  py-5" id='metitle'>
-                  <h3 className='mb-4'>{db.youtube.maintitle} 🔥<span className="d-block">{db.youtube.subtitle}</span></h3>
+                      <h3 className='mb-4'>{db.youtube.maintitle} 🔥<span className="d-block">{db.youtube.subtitle}</span></h3>
                       <ul id="menulist" className="pb-3">
                         {
                           db.youtube.adlist.map((v,i)=>{
@@ -47,7 +45,7 @@ export default function  Menu(props) {
                             db.Tab.map((v,i)=>{
                               return(
                                 <li className='px-3'>
-                                  <button onClick={()=>{ setdbTabsMenu2(i) }}>{v.btstiltle.bt}</button>
+                                  <button onClick={()=>{ setdbTabsMenu2(i) }} className={`icon${i}`}>{v.btstiltle.bt}</button>
                                 </li>
                               )
                             })
@@ -67,9 +65,9 @@ export default function  Menu(props) {
                       <div id='mepick' >
                         <a href={v.Mhref} className='d-block position-relative'>
                           <img src={v.Mpic} className="img-fluid pt-md-2 pt-2" alt={v.Malt} />
-                          <span className="view"><storng className="px-md-2 px-0">{v.Mstorng}</storng><em>{v.Mem}</em></span>
+                          <span className="view"><storng className="px-md-2 px-0">{v.Mstorng}명</storng><em>{v.Mem}</em></span>
                         </a>
-                        <div id="explain"><p className='pt-md-2 pt-1'>{v.Mdeco}<span className='px-md-2 px-1'>{v.Mnm}</span></p><span  className='nonsale'>{v.Mnone}</span><strong data-aos="zoom-in-down" data-aos-once="false" className='ps-3'>{v.Msale}</strong></div> 
+                        <div id="explain"><p className='pt-md-2 pt-1'>{v.Mdeco}<span className='px-md-2 px-1'>{v.Mnm}</span></p><span  className='nonsale'>{v.Mnone}원</span><strong data-aos="zoom-in-down" data-aos-once="false" className='ps-3'>{v.Msale}원</strong></div> 
                       </div> 
                       </li>
                         )
