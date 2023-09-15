@@ -16,7 +16,7 @@ export default function Form(props) {
                         <h3 className="text-center pt-2">샐러드유 알림받고 선물 받자! 🎁</h3>
                     </div>
                     <div className="d-md-flex pt-3">
-                        <div className="col-12 col-md-6">
+                        <div className="col-12 col-md-6 inner">
                             <h5 className="text-center">이메일로 알림받기 🔔</h5>
                             <div className={`d-flex justify-content-center pt-2 ${showEmailInput ? 'act' : ''}`} id="emailsection">
                                 <input type="text" name="email"></input><span>@</span>
@@ -31,7 +31,7 @@ export default function Form(props) {
                                 )}
                             </div>
                         </div>
-                        <div className="col-12 col-md-6 kakao">
+                        <div className="col-12 col-md-6 kakao inner2">
                             <a href="http://pf.kakao.com/_xjflLxj/chat" target="_blank">
                             <h5 className="text-center">카카오톡으로 알림받기 📣</h5>
                             </a>
