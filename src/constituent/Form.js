@@ -10,13 +10,13 @@ export default function Form(props) {
 
     return (
         <>
-            <form id={props.useid} className="mb-5" action="https://saladu.co.kr/" method="GET">
-                <div>
-                    <div className='mb-3'>
-                        <h3 className="text-center pt-2">샐러드유 알림받고 선물 받자! 🎁</h3>
-                    </div>
-                    <div className="d-md-flex pt-3">
-                        <div className="col-12 col-md-6 inner">
+             <form id={props.useid} className="position-relative mb-5" action="https://saladu.co.kr/" method="GET">
+                <div className="pt-3 pt-lg-5 position-relative">
+                    <div className="container">
+                        <div className='mb-3'>
+                            <h3 className="text-center pt-2">샐러드유 알림받고 선물 받자! 🎁</h3>
+                        </div>
+                        <div>
                             <h5 className="text-center">이메일로 알림받기 🔔</h5>
                             <div className={`d-flex justify-content-center pt-2 ${showEmailInput ? 'act' : ''}`} id="emailsection">
                                 <input type="text" name="email"></input><span>@</span>
@@ -30,22 +30,26 @@ export default function Form(props) {
                                     <input className="show" type="text" name="email" placeholder="직접입력"></input>
                                 )}
                             </div>
+                            <div>
+                                <a href="http://pf.kakao.com/_xjflLxj/chat" target="_blank">
+                                <h5 className="text-center">카카오톡으로 알림받기 📣</h5>
+                                </a>
+                                <div className="submit text-center">
+                                    <div className='mb-3'>
+                                         <input type="checkbox" id="agree"></input>
+                                         <label for="agree">개인정보정책동의</label>
+                                    </div>
+                                    <input type="submit" value="제출하기" className="text-center"></input>
                         </div>
-                        <div className="col-12 col-md-6 kakao inner2">
-                            <a href="http://pf.kakao.com/_xjflLxj/chat" target="_blank">
-                            <h5 className="text-center">카카오톡으로 알림받기 📣</h5>
-                            </a>
-                        </div>
-                    </div>
-                    <div className="submit text-center">
-                            <div className='mb-3'>
-                                <input type="checkbox" id="agree"></input>
-                                <label for="agree">개인정보정책동의</label>
                             </div>
-                            <input type="submit" value="제출하기" className="text-center"></input>
                         </div>
+                        
+                    </div>                   
+                    
                 </div>
+
             </form>
         </>
     )
 }
+

@@ -416,18 +416,6 @@ section #deco {
   transition: max-height 0.5s ease-in, opacity 0.5s ease-in;
 }
 
-#form .inner {
-  background-image: url(../img/form1.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-}
-#form .inner2 {
-  background-image: url(../img/gitback.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: right;
-}
 #form .email input {
   width: 70%;
   border-radius: 5px;
