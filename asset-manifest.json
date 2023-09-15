@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/Saladu-react/static/js/main.01661c5e.js",
-    "index.html": "/Saladu-react/index.html",
-    "main.01661c5e.js.map": "/Saladu-react/static/js/main.01661c5e.js.map"
+    "main.js": "./static/js/main.e0f7776e.js",
+    "index.html": "./index.html",
+    "main.e0f7776e.js.map": "./static/js/main.e0f7776e.js.map"
   },
   "entrypoints": [
-    "static/js/main.01661c5e.js"
+    "static/js/main.e0f7776e.js"
   ]
 }
