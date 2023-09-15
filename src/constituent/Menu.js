@@ -9,11 +9,6 @@ export default function  Menu(props) {
     const [dbTabsMenu, setdbTabsMenu2 ] = useState(0);
 
   
-  
-   
-  
-        
-    
    
     return (
         <>
