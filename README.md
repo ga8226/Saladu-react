@@ -4,7 +4,7 @@
 
  제작모듈 : node 14버전으로 제작 (cafe24 노드서버환경) 
          "aos": "^2.3.4" , "bootstrap": "^5.3.0" , "react-bootstrap": "^2.8.0" ,  "bootstrap-icons": "^1.10.5", 
-         "sass": "^1.63.6" , "swiper": "^9.4.1"
+         "sass": "^1.63.6" , "swiper": "^9.4.1" ,   "axios": "^1.5.0"
          font : "NS" , "SUITE" / 주 컬러 : "#7FAC34"
          
 
